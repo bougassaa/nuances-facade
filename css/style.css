@@ -1,0 +1,31 @@
+.navbar {
+    transition: background-color .5s;
+}
+
+.navbar-brand > img {
+    height: 36px;
+}
+
+#home-house-1 {
+    background-image: url("../images/maison-1.jpeg");
+}
+
+#landing-home {
+    display: flex;
+    height: 100vh;
+    background-image: url('../images/maison-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(14px);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-home > div {
+    width: 500px;
+    text-align: justify;
+    margin: 30px;
+}
+
