@@ -1,13 +1,10 @@
 .navbar {
     transition: background-color .5s;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand > img {
     height: 36px;
-}
-
-#home-house-1 {
-    background-image: url("../images/maison-1.jpeg");
 }
 
 #landing-home {
@@ -26,6 +23,49 @@
 #landing-home > div {
     width: 500px;
     text-align: justify;
-    margin: 30px;
 }
 
+#landing-home h1 {
+    font-size: 2rem;
+}
+
+#offcanvas-menu {
+    max-width: 55%;
+}
+
+#offcanvas-menu .nav-link {
+    color: #757575;
+}
+
+#realisations-carousel .carousel-item {
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#realisations-carousel .carousel-item:nth-child(1) {
+    background-image: url("../images/maison-1.jpeg");
+}
+
+#realisations-carousel .carousel-item:nth-child(2) {
+    background-image: url("../images/maison-1.jpeg");
+}
+
+#realisations-carousel .carousel-item:nth-child(3) {
+    background-image: url("../images/maison-1.jpeg");
+}
+
+.carousel-caption {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    #landing-home {
+        background-image: url("../images/home-1-phone.jpeg");
+        align-items: end;
+    }
+}
