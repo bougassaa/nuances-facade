@@ -89,6 +89,11 @@
     padding-bottom: 30px;
 }
 
+.localisation-preview {
+    border-radius: 12px;
+    max-width: 100%;
+}
+
 @media (max-width: 768px) {
     #landing-home h1 {
         font-size: 2rem;
