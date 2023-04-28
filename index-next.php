@@ -1,37 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Nuances Façade</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="images/nf-logo-short.png" alt="Nuances Facade Logo">
-        </a>
-        <button class="bg-transparent btn btn-lg py-0 d-inline d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="d-none d-md-block justify-content-lg-end">
-            <ul class="navbar-nav gap-2">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Réalisations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">A propos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php
+$title = 'Nuances Façade - Accueil';
+$isHome = true;
+include_once "layouts/header.php"
+?>
+
 <div class="p-3" id="landing-home">
     <div class="text-light">
         <h1>Nuances Façade</h1>
@@ -185,30 +157,4 @@
     </div>
 </div>
 
-<footer class="bg-dark text-light border-top border-secondary py-5">
-
-</footer>
-
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-menu">
-    <div class="offcanvas-header justify-content-end">
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body">
-        <ul class="nav flex-column">
-            <li class="nav-item">
-                <a href="#" class="nav-link">Réalisations</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">A propos</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
-            </li>
-        </ul>
-    </div>
-</div>
-
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/script.js"></script>
-</body>
-</html>
+<?php include_once "layouts/footer.php" ?>

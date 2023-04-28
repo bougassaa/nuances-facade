@@ -90,6 +90,10 @@
     max-width: 100%;
 }
 
+.navbar-offset {
+    margin-top: 70px;
+}
+
 @media (max-width: 768px) {
     #landing-home h1 {
         font-size: 2rem;
