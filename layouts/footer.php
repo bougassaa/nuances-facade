@@ -1,19 +1,23 @@
 <footer class="bg-dark text-secondary border-top border-secondary py-5">
     <div class="container">
-        <div class="row">
+        <div class="row text-sm-start text-center">
             <div class="col-sm">
                 <h4>Contacts</h4>
+                <p>
+                    <img style="max-height: 54px" src="images/nf-logo-long.png" alt="logo footer">
+                </p>
                 <p>Téléphone : <a href="tel:0651388181" class="link-secondary">06 51 38 81 81</a></p>
                 <p>E-mail : <a href="mailto:contact@nuances-facade.fr" class="link-secondary">contact@nuances-facade.fr</a></p>
+                <hr class="d-block d-sm-none">
             </div>
             <div class="col-sm">
                 <h4>Liens utiles</h4>
-                <ul>
+                <ul class="nav flex-column">
                     <li>
-                        <a href="/mentions-legales" class="link-secondary">Les mentions légales</a>
+                        <a href="/mentions-legales" class="nav-link text-secondary">Les mentions légales</a>
                     </li>
                     <li>
-                        <a href="/rgpd" class="link-secondary">Vos droits RGPD</a>
+                        <a href="/rgpd" class="nav-link text-secondary">Vos droits RGPD</a>
                     </li>
                 </ul>
             </div>

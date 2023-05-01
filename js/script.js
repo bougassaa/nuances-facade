@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    const carousel = new bootstrap.Carousel('#realisations-carousel')
+    const carousel = new bootstrap.Carousel('#realisations-carousel');
 });

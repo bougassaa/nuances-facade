@@ -24,8 +24,6 @@
     backdrop-filter: blur(14px);
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
-    justify-content: center;
-    align-items: center;
 }
 
 #landing-home > div {
@@ -74,9 +72,6 @@
     background-position: center;
 }
 
-.card .card-title {
-}
-
 .carousel-caption {
     bottom: 0;
     left: 0;
@@ -105,7 +100,6 @@
 
     #landing-home {
         background-image: url("../images/home-1-phone.jpeg");
-        align-items: end;
         padding-bottom: 16vh !important;
     }
 }
