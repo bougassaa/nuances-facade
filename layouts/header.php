@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<div class="notification-container">
+    <?php if (isset($_COOKIE['message_sent'])): ?>
+    <?php unset($_COOKIE['message_sent']); setcookie('message_sent', '', time() - 3600, '/'); ?>
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            Votre message a bien été envoyé ✅
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    <?php endif; ?>
+</div>
+
 <nav class="navbar navbar-expand-md navbar-dark fixed-top <?= isset($isHome) ? 'home' : 'bg-dark' ?>">
     <div class="container">
         <a class="navbar-brand" href="/">
@@ -26,7 +37,7 @@
                     <a class="nav-link" href="#">A propos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="/contact">Contact</a>
                 </li>
             </ul>
         </div>

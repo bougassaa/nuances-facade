@@ -38,7 +38,7 @@
                 <a href="#" class="nav-link">A propos</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="/contact" class="nav-link">Contact</a>
             </li>
         </ul>
     </div>

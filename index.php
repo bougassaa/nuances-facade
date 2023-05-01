@@ -8,13 +8,13 @@ include_once "layouts/header.php"
     <div class="text-light">
         <h1>Nuances Façade</h1>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam a omnis, possimus, quam suscipit tenetur unde veniam vitae.
+            Embellissez votre maison avec notre entreprise de ravalement de façade de qualité ! Nous sommes fiers de desservir les régions Drome, Vaucluse, Gard et Ardèche, et nous offrons une expertise dans la rénovation et le neuf, ainsi que dans le nettoyage de façade ancienne.
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adlanditiis deserunt, quam suscipit tenetur unde veniam vitae.
+            Nous sommes également heureux de proposer des devis et des déplacements gratuits pour tous nos clients. Faites confiance à notre expérience pour donner à votre maison une apparence neuve et fraîche !
         </p>
         <p>
-            <button class="btn btn-secondary btn-sm">Faire un devis gratuitement</button>
+            <a href="/contact" class="btn btn-secondary">Faire un devis gratuitement</a>
         </p>
     </div>
 </div>
@@ -66,7 +66,9 @@ include_once "layouts/header.php"
         </button>
     </div>
     <div class="container py-5">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, consectetur culpa ea explicabo quis unde. Aliquid cumque deserunt exercitationem officiis omnis soluta veritatis! A atque aut earum laboriosam nemo velit</p>
+        <p>
+            Nous sommes fiers de vous montrer quelques-unes de nos réalisations les plus récentes en matière de ravalement de façade. Mais ce n'est qu'un petit aperçu de tout ce que nous pouvons faire pour embellir votre maison. Si vous souhaitez voir plus de nos travaux, cliquez sur le bouton ci-dessous pour découvrir notre galerie de projets. Vous y trouverez des exemples de notre travail en matière de rénovation et de neuf, de nettoyage de façade ancienne au karcher, de toitures et de joints de pierre. Nous espérons que cela vous inspirera pour votre propre projet de ravalement de façade.
+        </p>
         <div>
             <button class="btn btn-outline-light btn-sm">Voir d'autres réalisations...</button>
         </div>
@@ -83,7 +85,7 @@ include_once "layouts/header.php"
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Ravalement de façade</h5>
                     <div class="card-text text-secondary">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, laboriosam!. Enim, laboriosam!. Enim, laboriosam!
+                        Rénovez et donnez un aspect neuf à votre maison ou clôture grâce à notre service de ravalement de façade professionnel. Sur du neuf ou rénovation.
                     </div>
                 </div>
             </div>
@@ -94,7 +96,7 @@ include_once "layouts/header.php"
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Nettoyage de façade</h5>
                     <div class="card-text text-secondary">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, laboriosam!
+                        Redonnez à votre façade son éclat d'origine. Nous éliminons la saleté, la moisissure et les taches pour une apparence fraîche et propre.
                     </div>
                 </div>
             </div>
@@ -105,7 +107,7 @@ include_once "layouts/header.php"
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Nettoyage de toitures</h5>
                     <div class="card-text text-secondary">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, laboriosam!
+                        Protégez votre toit et préservez sa durée de vie. Nous éliminons les champignons, les lichens et les mousses pour une meilleure résistance aux intempéries.
                     </div>
                 </div>
             </div>
@@ -116,7 +118,7 @@ include_once "layouts/header.php"
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Joints de pierre</h5>
                     <div class="card-text text-secondary">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, laboriosam!
+                        Améliorez la stabilité et l'aspect de vos murs en pierre. Nous remplaçons les joints endommagés ou manquants pour un aspect neuf et une meilleure sécurité.
                     </div>
                 </div>
             </div>
@@ -146,7 +148,7 @@ include_once "layouts/header.php"
                 <div>
                     Ou depuis notre page de contact :
                     <div class="mt-1">
-                        <a href="#" class="btn btn-outline-light">En cliquant ici</a>
+                        <a href="/contact" class="btn btn-outline-light">En cliquant ici</a>
                     </div>
                 </div>
             </div>

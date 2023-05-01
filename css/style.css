@@ -89,6 +89,19 @@
     margin-top: 70px;
 }
 
+.notification-container {
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    padding: 0 2em;
+    z-index: 9;
+}
+
+.notification-container > div {
+    max-width: 400px;
+    margin: auto;
+}
+
 @media (max-width: 768px) {
     #landing-home h1 {
         font-size: 2rem;
