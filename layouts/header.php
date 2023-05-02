@@ -12,7 +12,7 @@
 
 <div class="notification-container">
     <?php if (isset($_COOKIE['message_sent'])): ?>
-    <?php unset($_COOKIE['message_sent']); setcookie('message_sent', '', time() - 3600, '/'); ?>
+        <?php unset($_COOKIE['message_sent']); setcookie('message_sent', '', time() - 3600, '/'); ?>
         <div class="alert alert-success alert-dismissible fade show" role="alert">
             Votre message a bien été envoyé ✅
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>

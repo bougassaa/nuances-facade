@@ -10,7 +10,7 @@ if (!empty($_REQUEST['contact']) && !empty($_REQUEST['name']) && !empty($_REQUES
         </body>
     </html>
     EOF;
-    setcookie('message_sent', 'true');
+    setcookie('message_sent', 'true', time() + 3600);
     mail('contact@nuances-facade.fr', '🎉 Nouveau message de client', $content, "Content-Type: text/html; charset=UTF-8\r\n");
     header('Location: /');
 } else {
