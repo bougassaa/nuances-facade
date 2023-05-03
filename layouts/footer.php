@@ -4,7 +4,7 @@
             <div class="col-sm">
                 <h4>Contacts</h4>
                 <p>
-                    <img style="max-height: 54px" src="images/nf-logo-long.png" alt="logo footer">
+                    <img style="max-height: 54px" src="../images/logo/nf-logo-long.png" alt="logo footer">
                 </p>
                 <p>Téléphone : <a href="tel:0651388181" class="link-secondary">06 51 38 81 81</a></p>
                 <p>E-mail : <a href="mailto:contact@nuances-facade.fr" class="link-secondary">contact@nuances-facade.fr</a></p>
@@ -14,10 +14,10 @@
                 <h4>Liens utiles</h4>
                 <ul class="nav flex-column">
                     <li>
-                        <a href="/mentions-legales" class="nav-link text-secondary">Les mentions légales</a>
+                        <a href="/mentions-legales" class="nav-link text-secondary">Mentions légales</a>
                     </li>
                     <li>
-                        <a href="/rgpd" class="nav-link text-secondary">Vos droits RGPD</a>
+                        <a href="/rgpd" class="nav-link text-secondary">Droits RGPD</a>
                     </li>
                 </ul>
             </div>

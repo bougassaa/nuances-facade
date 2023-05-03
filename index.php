@@ -23,7 +23,8 @@ include_once "layouts/header.php"
     <div class="container pt-5 pb-3">
         <h2>Quelques réalisations...</h2>
     </div>
-    <div id="realisations-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+<!--    todo : revert this-->
+    <div id="realisations-carousel" class="carousel slide" data-bs-ride="false" data-bs-interval="3000">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#realisations-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#realisations-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -81,7 +82,7 @@ include_once "layouts/header.php"
     <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
-                <div class="card-work-preview" style="background-image: url('images/ravalement-facade.jpeg')"></div>
+                <div class="card-work-preview" style="background-image: url('images/prestations/ravalement-facade.jpeg')"></div>
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Ravalement de façade</h5>
                     <div class="card-text text-secondary">
@@ -92,7 +93,7 @@ include_once "layouts/header.php"
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
-                <div class="card-work-preview" style="background-image: url('images/nettoyage-facade.jpeg')"></div>
+                <div class="card-work-preview" style="background-image: url('images/prestations/nettoyage-facade.jpeg')"></div>
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Nettoyage de façade</h5>
                     <div class="card-text text-secondary">
@@ -103,7 +104,7 @@ include_once "layouts/header.php"
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
-                <div class="card-work-preview" style="background-image: url('images/nettoyage-toiture.jpeg')"></div>
+                <div class="card-work-preview" style="background-image: url('images/prestations/nettoyage-toiture.jpeg')"></div>
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Nettoyage de toitures</h5>
                     <div class="card-text text-secondary">
@@ -114,7 +115,7 @@ include_once "layouts/header.php"
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
-                <div class="card-work-preview" style="background-image: url('images/joint-pierre.jpeg')"></div>
+                <div class="card-work-preview" style="background-image: url('images/prestations/joint-pierre.jpeg')"></div>
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Joints de pierre</h5>
                     <div class="card-text text-secondary">
@@ -153,7 +154,7 @@ include_once "layouts/header.php"
                 </div>
             </div>
             <div class="col-md-8">
-                <img class="localisation-preview" src="images/localisation.png" alt="Localisation">
+                <img class="localisation-preview" src="images/landing-page/localisation.png" alt="Localisation">
             </div>
         </div>
     </div>

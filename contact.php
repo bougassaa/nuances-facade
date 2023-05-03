@@ -1,5 +1,5 @@
 <?php $title = 'Contact'; include_once "layouts/header.php" ?>
-<div class="container navbar-offset">
+<div class="container container-min-height navbar-offset">
     <h1 class="py-3">Page de contact</h1>
     <div class="row">
         <div class="col-md order-1 order-md-0">
@@ -25,7 +25,7 @@
             <p class="text">
                 Nous serions ravis de vous aider à réaliser votre projet. Pour obtenir un devis gratuit, il vous suffit de remplir le formulaire de contact ci-dessous en nous fournissant quelques détails sur votre projet. Nous vous répondrons dans les plus brefs délais pour vous fournir un devis détaillé. Si vous avez des questions ou si vous souhaitez en savoir plus sur nos services, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à réaliser vos projets dans les départements Drome, Vaucluse, Gard et Ardèche.
             </p>
-            <img src="images/home-repairing.svg" class="img-fluid d-none d-md-block" alt="home repairing">
+            <img src="images/vectors/home-repairing.svg" class="img-fluid d-none d-md-block" alt="home repairing">
         </div>
     </div>
 </div>

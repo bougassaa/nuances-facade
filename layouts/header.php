@@ -23,7 +23,7 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top <?= isset($isHome) ? 'home' : 'bg-dark' ?>">
     <div class="container">
         <a class="navbar-brand" href="/">
-            <img src="images/nf-logo-short.png" alt="Nuances Facade Logo">
+            <img src="../images/logo/nf-logo-short.png" alt="Nuances Facade Logo">
         </a>
         <button class="bg-transparent btn btn-lg py-0 d-inline d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu">
             <span class="navbar-toggler-icon"></span>
