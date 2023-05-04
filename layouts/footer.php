@@ -32,7 +32,7 @@
     <div class="offcanvas-body">
         <ul class="nav flex-column">
             <li class="nav-item">
-                <a href="#" class="nav-link">Réalisations</a>
+                <a href="/realisations" class="nav-link">Réalisations</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link">A propos</a>

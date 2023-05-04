@@ -23,55 +23,15 @@ include_once "layouts/header.php"
     <div class="container pt-5 pb-3">
         <h2>Quelques réalisations...</h2>
     </div>
-<!--    todo : revert this-->
-    <div id="realisations-carousel" class="carousel slide" data-bs-ride="false" data-bs-interval="3000">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#realisations-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#realisations-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#realisations-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#realisations-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="carousel-caption">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="carousel-caption">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="carousel-caption">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="carousel-caption">
-                    <h5>For slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#realisations-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#realisations-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+
+    <?php include_once "layouts/carousel.php" ?>
+
     <div class="container py-5">
         <p>
             Nous sommes fiers de vous montrer quelques-unes de nos réalisations les plus récentes en matière de ravalement de façade. Mais ce n'est qu'un petit aperçu de tout ce que nous pouvons faire pour embellir votre maison. Si vous souhaitez voir plus de nos travaux, cliquez sur le bouton ci-dessous pour découvrir notre galerie de projets. Vous y trouverez des exemples de notre travail en matière de rénovation et de neuf, de nettoyage de façade ancienne au karcher, de toitures et de joints de pierre. Nous espérons que cela vous inspirera pour votre propre projet de ravalement de façade.
         </p>
         <div>
-            <button class="btn btn-outline-light btn-sm">Voir d'autres réalisations...</button>
+            <a href="/realisations" class="btn btn-outline-light btn-sm">Voir d'autres réalisations...</a>
         </div>
     </div>
 </div>
@@ -87,6 +47,7 @@ include_once "layouts/header.php"
                     <h5 class="card-title text-truncate">Ravalement de façade</h5>
                     <div class="card-text text-secondary">
                         Rénovez et donnez un aspect neuf à votre maison ou clôture grâce à notre service de ravalement de façade professionnel. Sur du neuf ou rénovation.
+                        <a href="#" class="stretched-link">Voir plus...</a>
                     </div>
                 </div>
             </div>
@@ -130,7 +91,7 @@ include_once "layouts/header.php"
 <div class="bg-dark text-light">
     <div class="container pt-5 pb-4">
         <div class="row align-items-center">
-            <div class="col-md-4 text-center mb-4">
+            <div class="col-md-6 text-center mb-4">
                 <h2>Nous contacter</h2>
                 <div class="mt-4">
                     Par téléphone :
@@ -153,8 +114,8 @@ include_once "layouts/header.php"
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
-                <img class="localisation-preview" src="images/landing-page/localisation.png" alt="Localisation">
+            <div class="col-md-6">
+                <img class="localisation-preview" src="images/landing-page/departements.png" alt="Localisation">
             </div>
         </div>
     </div>
