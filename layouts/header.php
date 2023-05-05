@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,8 +14,8 @@
 <body>
 
 <div class="notification-container">
-    <?php if (isset($_COOKIE['message_sent'])): ?>
-        <?php unset($_COOKIE['message_sent']); setcookie('message_sent', '', time() - 3600, '/'); ?>
+    <?php if (isset($_SESSION['message_sent'])): ?>
+        <?php unset($_SESSION['message_sent']); ?>
         <div class="alert alert-success alert-dismissible fade show" role="alert">
             Votre message a bien été envoyé ✅
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>

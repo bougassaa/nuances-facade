@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 if (!empty($_REQUEST['contact']) && !empty($_REQUEST['name']) && !empty($_REQUEST['message'])) {
     $content = <<<EOF
     <html>
@@ -10,7 +12,9 @@ if (!empty($_REQUEST['contact']) && !empty($_REQUEST['name']) && !empty($_REQUES
         </body>
     </html>
     EOF;
-    setcookie('message_sent', 'true', time() + 3600);
+
+    $_SESSION['message_sent'] = true;
+
     mail('contact@nuances-facade.fr', '🎉 Nouveau message de client', $content, "Content-Type: text/html; charset=UTF-8\r\n");
     header('Location: /');
 } else {
