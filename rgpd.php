@@ -37,7 +37,7 @@
         <strong>Délégué à la protection des données</strong> : El Mehdi BOUGASSAA – contact@nuances-facade.fr<br>
     </p>
 
-    <div ng-bind-html="linkHTML"><p>Les mentions légales sont issues du modèle proposé par le <a
+    <div><p>Les mentions légales sont issues du modèle proposé par le <a
                     href="https://fr.orson.io/1371/generateur-mentions-legales"
                     title="générateur gratuit offert par Orson.io">générateur gratuit offert par Orson.io</a></p></div>
 
@@ -268,7 +268,7 @@
         personnes susceptibles d’avoir accès aux données des Utilisateurs de <a href="https://www.nuances-facade.fr/">https://www.nuances-facade.fr/</a>
         sont principalement les agents de notre service client.</p>
 
-    <div ng-bind-html="rgpdHTML"></div>
+    <div></div>
 
 
     <h2>8. Notification d’incident</h2>
