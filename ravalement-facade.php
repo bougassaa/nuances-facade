@@ -1,4 +1,4 @@
-<?php $title = 'Contact'; include_once "layouts/header.php" ?>
+<?php $title = 'Ravalement de façade'; include_once "layouts/header.php" ?>
 <div class="container container-min-height navbar-offset py-3">
     <h1>Ravalement de façade</h1>
 

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title><?= $title ?? 'Nuances Façade' ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Spécialiste de l'enduit de façade dans le Vaucluse, la Drôme, le Gard et l'Ardèche. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures.">
+    <meta name="keywords" content="façade vaucluse, façade drome, façade gard, façade ardèche, enduit façade, façadier vaucluse, facade, ravalemement de facade, joint pierre, nettoyage facade">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
