@@ -16,15 +16,18 @@
                     <label for="message" class="form-label">Votre message</label>
                     <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 d-grid d-md-block">
                     <button type="submit" class="btn btn-primary">Contacter Nuances Façade</button>
                 </div>
             </form>
         </div>
         <div class="col-md order-0 order-md-1">
-            <p class="text">
-                Nous serions ravis de vous aider à réaliser votre projet. Pour obtenir un devis gratuit, il vous suffit de remplir le formulaire de contact ci-dessous en nous fournissant quelques détails sur votre projet. Nous vous répondrons dans les plus brefs délais pour vous fournir un devis détaillé. Si vous avez des questions ou si vous souhaitez en savoir plus sur nos services, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à réaliser vos projets dans les départements Drome, Vaucluse, Gard et Ardèche.
-            </p>
+            <div class="alert alert-primary">
+                Nous serions ravis de vous aider à réaliser votre projet. Pour obtenir un devis gratuit, il vous suffit de remplir le formulaire de contact
+                ci-joint en nous fournissant quelques détails sur votre projet. Nous vous répondrons dans les plus brefs délais pour vous fournir un devis détaillé.
+                Si vous avez des questions ou si vous souhaitez en savoir plus sur nos services, n'hésitez pas à nous contacter.
+                Nous sommes là pour vous aider à réaliser vos projets dans les départements Drome, Vaucluse, Gard et Ardèche.
+            </div>
             <img src="images/vectors/home-repairing.svg" class="img-fluid d-none d-md-block" alt="home repairing">
         </div>
     </div>
