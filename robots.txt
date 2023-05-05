@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /layouts
+Sitemap: https://www.nuances-facade.fr/sitemap.xml
