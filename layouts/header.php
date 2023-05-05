@@ -31,10 +31,10 @@
         <div class="d-none d-md-block justify-content-lg-end">
             <ul class="navbar-nav gap-2">
                 <li class="nav-item">
-                    <a class="nav-link" href="/realisations">Réalisations</a>
+                    <a class="nav-link" href="/ravalement-facade">Ravalement de façade</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">A propos</a>
+                    <a class="nav-link" href="/realisations">Réalisations</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>

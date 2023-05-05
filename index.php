@@ -8,7 +8,7 @@ include_once "layouts/header.php"
     <div class="text-light">
         <h1>Nuances Façade</h1>
         <p>
-            Embellissez votre maison avec notre entreprise de ravalement de façade de qualité ! Nous sommes fiers de desservir les régions Drome, Vaucluse, Gard et Ardèche, et nous offrons une expertise dans la rénovation et le neuf, ainsi que dans le nettoyage de façade ancienne.
+            Embellissez votre maison avec notre entreprise de <a class="link-light" href="/ravalement-facade">ravalement de façade</a> de qualité ! Nous sommes fiers de desservir les régions Drome, Vaucluse, Gard et Ardèche, et nous offrons une expertise dans la rénovation et le neuf, ainsi que dans le nettoyage de façade ancienne.
         </p>
         <p>
             Nous sommes également heureux de proposer des devis et des déplacements gratuits pour tous nos clients. Faites confiance à notre expérience pour donner à votre maison une apparence neuve et fraîche !
@@ -47,7 +47,7 @@ include_once "layouts/header.php"
                     <h5 class="card-title text-truncate">Ravalement de façade</h5>
                     <div class="card-text text-secondary">
                         Rénovez et donnez un aspect neuf à votre maison ou clôture grâce à notre service de ravalement de façade professionnel. Sur du neuf ou rénovation.
-                        <a href="#" class="stretched-link">Voir plus...</a>
+                        <a href="/ravalement-facade" class="stretched-link">Voir plus...</a>
                     </div>
                 </div>
             </div>

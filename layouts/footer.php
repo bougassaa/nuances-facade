@@ -32,10 +32,10 @@
     <div class="offcanvas-body">
         <ul class="nav flex-column">
             <li class="nav-item">
-                <a href="/realisations" class="nav-link">Réalisations</a>
+                <a href="/ravalement-facade" class="nav-link">Ravalement de façade</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">A propos</a>
+                <a href="/realisations" class="nav-link">Réalisations</a>
             </li>
             <li class="nav-item">
                 <a href="/contact" class="nav-link">Contact</a>
