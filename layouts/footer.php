@@ -14,10 +14,30 @@
                 <h4>Liens utiles</h4>
                 <ul class="nav flex-column">
                     <li>
+                        <a href="/prestations" class="nav-link text-secondary">Nos prestations</a>
+                    </li>
+                    <li>
                         <a href="/mentions-legales" class="nav-link text-secondary">Mentions légales</a>
                     </li>
                     <li>
                         <a href="/rgpd" class="nav-link text-secondary">Droits RGPD</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h4>Secteurs</h4>
+                <ul class="nav flex-column">
+                    <li>
+                        <a href="/prestation/ravalement-facade-vaucluse" class="nav-link text-secondary">Ravalement facade Vaucluse - 84</a>
+                    </li>
+                    <li>
+                        <a href="/prestation/ravalement-facade-drome" class="nav-link text-secondary">Ravalement facade Drôme - 26</a>
+                    </li>
+                    <li>
+                        <a href="/prestation/ravalement-facade-ardeche" class="nav-link text-secondary">Ravalement facade Ardèche - 07</a>
+                    </li>
+                    <li>
+                        <a href="/prestation/ravalement-facade-gard" class="nav-link text-secondary">Ravalement facade Gard - 30</a>
                     </li>
                 </ul>
             </div>

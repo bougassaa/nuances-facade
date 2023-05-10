@@ -1,5 +1,5 @@
 <?php
-$title = 'Nuances Façade - Accueil';
+$title = 'Nuances Façade - Ravalement de façade';
 $isHome = true;
 include_once "layouts/header.php"
 ?>
