@@ -13,6 +13,7 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
     <meta name="description" content="<?= $description ?>">
     <meta name="keywords" content="<?= $keywords ?>">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/logo/nf-logo-short.png" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
