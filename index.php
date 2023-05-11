@@ -1,5 +1,5 @@
 <?php
-$title = 'Nuances Façade - Ravalement de façade';
+$title = 'Nuances Façade | Ravalement de façade, devis gratuit';
 $isHome = true;
 include_once "layouts/header.php"
 ?>
