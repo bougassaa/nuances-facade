@@ -4,7 +4,7 @@
             <div class="col-sm">
                 <h4>Contacts</h4>
                 <p>
-                    <img style="max-height: 54px" src="../images/logo/nf-logo-long.png" alt="logo footer">
+                    <img style="max-height: 54px" src="/images/logo/nf-logo-long.png" alt="logo footer">
                 </p>
                 <p>Téléphone : <a href="tel:0651388181" class="link-secondary">06 51 38 81 81</a></p>
                 <p>E-mail : <a href="mailto:contact@nuances-facade.fr" class="link-secondary">contact@nuances-facade.fr</a></p>
@@ -64,7 +64,7 @@
     </div>
 </div>
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/script.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>

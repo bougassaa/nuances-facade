@@ -11,5 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    const carousel = new bootstrap.Carousel('#realisations-carousel');
+    const carouselElement = document.querySelector('#realisations-carousel');
+    if (carouselElement instanceof HTMLElement) {
+        const carousel = new bootstrap.Carousel(carouselElement);
+    }
 });

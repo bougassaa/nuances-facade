@@ -118,7 +118,7 @@ include_once "layouts/header.php"
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="localisation-preview" src="images/landing-page/departements.png" alt="Localisation">
+                <img class="localisation-preview" src="/images/landing-page/departements.png" alt="Localisation">
             </div>
         </div>
     </div>

@@ -28,7 +28,7 @@
                 Si vous avez des questions ou si vous souhaitez en savoir plus sur nos services, n'hésitez pas à nous contacter.
                 Nous sommes là pour vous aider à réaliser vos projets dans les départements Drome, Vaucluse, Gard et Ardèche.
             </div>
-            <img src="images/vectors/home-repairing.svg" class="img-fluid d-none d-md-block" alt="home repairing">
+            <img src="/images/vectors/home-repairing.svg" class="img-fluid d-none d-md-block" alt="home repairing">
         </div>
     </div>
 </div>
