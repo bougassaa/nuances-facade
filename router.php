@@ -32,19 +32,21 @@ if(!isset($routes[$_REQUEST['route']])) {
 }
 $city = $routes[$_REQUEST['route']];
 $title = "Ravalement de façade $city";
+$description = "Spécialiste de l'enduit de façade / ravalement de facade vers $city. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures vers $city.";
+$keywords = "facade $city, facadier $city, ravalement facade $city, nettoyage facade $city, joint pierre $city, nuances facade $city";
 
 include_once 'layouts/header.php';
 ?>
 <div class="container container-min-height navbar-offset py-3">
     <h1>Ravalement de façade <?= $city ?></h1>
     <p>
-        Chez Nuances Façade, nous sommes spécialisés dans le ravalement de façade et les prestations qui y sont liées pour les habitants de <?= $city ?>.
+        Chez Nuances Façade, nous sommes spécialisés dans le ravalement de façade et les prestations qui y sont liées pour les habitants vers <?= $city ?>.
         Nous sommes à votre disposition pour rénover et embellir votre façade en utilisant les techniques les plus modernes et les matériaux les plus adaptés.
         Que vous soyez un particulier ou un professionnel, nous pouvons également effectuer des travaux de nettoyage de façade, de nettoyage de toiture et de joints
-        de pierre pour vous offrir une maison ou un bâtiment impeccable à <?= $city ?>.
+        de pierre pour vous offrir une maison ou un bâtiment impeccable vers <?= $city ?>.
     </p>
     <p>
-        Contactez-nous dès aujourd'hui pour obtenir un devis gratuit et bénéficier de notre expertise et de notre savoir-faire pour tous vos projets de rénovation de façade à <?= $city ?>.
+        Contactez-nous dès aujourd'hui pour obtenir un devis gratuit et bénéficier de notre expertise et de notre savoir-faire pour tous vos projets de rénovation de façade vers <?= $city ?>.
     </p>
 
     <div class="alert alert-success" role="alert">
