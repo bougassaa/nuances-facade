@@ -32,9 +32,7 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
     <link rel="apple-touch-icon" href="/images/logo/nf-logo-short.png" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
-    <?php if(isset($isHome)): ?>
-        <link rel="canonical" href="https://www.nuances-facade.fr/prestations" />
-    <?php endif; ?>
+    <link rel="canonical" href="https://www.nuances-facade.fr<?= (stripos($_SERVER['REQUEST_URI'], '/') !== 0 ? '/' : '') . $_SERVER['REQUEST_URI'] ?>" />
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -56,7 +54,6 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
             ]
         }
     </script>
-
 </head>
 <body>
 
