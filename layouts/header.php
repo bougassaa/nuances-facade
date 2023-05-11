@@ -10,6 +10,7 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
     <meta charset="UTF-8">
     <title><?= $title ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="<?= $description ?>">
     <meta name="keywords" content="<?= $keywords ?>">
 
