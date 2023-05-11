@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteRule ^prestation/(.*)$ router.php?route=$1 [L]
+RewriteRule ^prestation/(.*)$ routerCities.php?route=$1 [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
