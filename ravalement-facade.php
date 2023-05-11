@@ -1,4 +1,8 @@
-<?php $title = 'Ravalement de façade'; include_once "layouts/header.php" ?>
+<?php
+$title = 'Ravalement de façade | Nous vous expliquons';
+$description = "Le ravalement de façade, c’est la remise en état des façades et des accessoires apparents d’une maison ou d’un immeuble en copropriété (dispositifs de fermeture ou de protection).";
+include_once "layouts/header.php"
+?>
 <div class="container container-min-height navbar-offset py-3">
     <h1>Ravalement de façade</h1>
 

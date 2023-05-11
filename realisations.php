@@ -1,5 +1,5 @@
 <?php
-$title = 'Réalisations';
+$title = 'Réalisations | Un petit aperçu';
 include_once "layouts/header.php"
 ?>
 <div class="container container-min-height navbar-offset py-3">

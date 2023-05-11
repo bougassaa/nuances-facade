@@ -1,4 +1,4 @@
-<?php $title = 'Droits RGPD'; include_once "layouts/header.php" ?>
+<?php $title = 'Nuances Façade - Droits RGPD'; include_once "layouts/header.php" ?>
 <div class="container navbar-offset">
     <h2>Définitions</h2>
     <p><b>Client :</b> tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil,

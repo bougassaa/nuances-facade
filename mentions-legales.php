@@ -1,4 +1,4 @@
-<?php $title = 'Mentions légales'; include_once "layouts/header.php" ?>
+<?php $title = 'Nuances Façade - Mentions légales'; include_once "layouts/header.php" ?>
 <div class="container navbar-offset">
     <h1>MENTIONS LEGALES :</h1>
 

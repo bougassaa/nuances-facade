@@ -1,5 +1,5 @@
 <?php
-$title = 'Nos prestations';
+$title = 'Nos prestations | Nettoyage façade, joint de pierre';
 $description = "Nuances Façade - Ravalement de façade et nettoyage facade, nettoyage toiture, joints de pierre. Dans Drome, Vaucluse, Gard, Ardèche.";
 include_once "layouts/header.php"
 ?>
