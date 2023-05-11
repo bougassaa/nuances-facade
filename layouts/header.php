@@ -16,6 +16,28 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
     <link rel="apple-touch-icon" href="/images/logo/nf-logo-short.png" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Nuances Façade",
+            "url": "https://www.nuances-facade.fr/",
+            "image": "https://www.nuances-facade.fr/images/logo/nf-logo-long.png",
+            "description": "Entreprise de ravalement de façade et prestations associées (nettoyage, joints de pierre) dans les régions de Drome, Vaucluse, Gard et Ardèche. Devis gratuit.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Valréas",
+                "postalCode": "84600",
+                "addressCountry": "FR"
+            },
+            "telephone": "+33 6 51 38 81 81",
+            "openingHours": [
+                "Mo-Fr 08:00-18:00",
+                "Sa 09:00-12:00"
+            ]
+        }
+    </script>
+
 </head>
 <body>
 
