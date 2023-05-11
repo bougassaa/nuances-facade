@@ -1,7 +1,7 @@
 <?php
 session_start();
 $title = $title ?? 'Nuances Façade';
-$description = $description ?? "Spécialiste de l'enduit de façade dans le Vaucluse, la Drôme, le Gard et l'Ardèche. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures.";
+$description = $description ?? "Spécialiste façadier dans le Vaucluse, la Drôme, le Gard et l'Ardèche. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures.";
 $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade ardèche, enduit façade, façadier vaucluse, facade, ravalement de facade";
 ?>
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
         <a class="navbar-brand" href="/">
             <img src="../images/logo/nf-logo-short.png" alt="Nuances Facade Logo">
         </a>
-        <button class="bg-transparent btn btn-lg py-0 d-inline d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu">
+        <button class="bg-transparent btn btn-lg py-0 d-inline d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-label="Ouvrir le menu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="d-none d-md-block justify-content-lg-end">
