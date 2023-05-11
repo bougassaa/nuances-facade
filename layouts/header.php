@@ -12,10 +12,29 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?= $description ?>">
     <meta name="keywords" content="<?= $keywords ?>">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.nuances-facade.fr/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nuances Façade - Ravalement de façade">
+    <meta property="og:description" content="Spécialiste façadier dans le Vaucluse, la Drôme, le Gard et l'Ardèche. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures.">
+    <meta property="og:image" content="https://www.nuances-facade.fr/images/logo/nf-logo-big.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="nuances-facade.fr">
+    <meta property="twitter:url" content="https://www.nuances-facade.fr/">
+    <meta name="twitter:title" content="Nuances Façade - Ravalement de façade">
+    <meta name="twitter:description" content="Spécialiste façadier dans le Vaucluse, la Drôme, le Gard et l'Ardèche. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures.">
+    <meta name="twitter:image" content="https://www.nuances-facade.fr/images/logo/nf-logo-big.png">
+
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="/images/logo/nf-logo-short.png" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <?php if(isset($isHome)): ?>
+        <link rel="canonical" href="https://www.nuances-facade.fr/prestations" />
+    <?php endif; ?>
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",

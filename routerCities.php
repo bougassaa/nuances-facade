@@ -32,7 +32,7 @@ if(!isset($routes[$_REQUEST['route']])) {
 }
 $city = $routes[$_REQUEST['route']];
 $title = "Ravalement de façade $city";
-$description = "Spécialiste de l'enduit de façade / ravalement de facade vers $city. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures vers $city.";
+$description = "Ravalement de facade vers $city. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures vers $city.";
 $keywords = "facade $city, facadier $city, ravalement facade $city, nettoyage facade $city, joint pierre $city, nuances facade $city";
 
 include_once 'layouts/header.php';

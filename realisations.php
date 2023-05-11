@@ -3,6 +3,7 @@ $title = 'Réalisations';
 include_once "layouts/header.php"
 ?>
 <div class="container container-min-height navbar-offset py-3">
+    <h1>Realisations</h1>
     <div class="row g-3">
         <div class="col-lg-6">
             <img src="/images/facades/home-1.png" class="object-fit-cover rounded-4 w-100 h-100 d-block" alt="Maison 1">
