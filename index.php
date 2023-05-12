@@ -28,7 +28,9 @@ include_once "layouts/header.php"
 
     <div class="container py-5">
         <p>
-            Nous sommes fiers de vous montrer quelques-unes de nos réalisations les plus récentes en matière de ravalement de façade. Mais ce n'est qu'un petit aperçu de tout ce que nous pouvons faire pour embellir votre maison. Si vous souhaitez voir plus de nos travaux, cliquez sur le bouton ci-dessous pour découvrir notre galerie de projets. Vous y trouverez des exemples de notre travail en matière de rénovation et de neuf, de nettoyage de façade ancienne au karcher, de toitures et de joints de pierre. Nous espérons que cela vous inspirera pour votre propre projet de ravalement de façade.
+            Nous sommes fiers de vous montrer quelques-unes de nos réalisations les plus récentes en matière de ravalement de façade. Mais ce n'est qu'un petit aperçu de tout ce que nous pouvons faire pour embellir votre maison.
+            Si vous souhaitez voir plus de nos travaux, cliquez sur le bouton ci-dessous pour découvrir notre galerie de projets. Vous y trouverez des exemples de notre travail en matière de rénovation et de neuf, de nettoyage de façade ancienne au karcher, de toitures et de joints de pierre.
+            Nous espérons que cela vous inspirera pour votre propre projet de ravalement de façade.
         </p>
         <div>
             <a href="/realisations" class="btn btn-outline-light btn-sm">Voir d'autres réalisations...</a>
@@ -128,6 +130,16 @@ include_once "layouts/header.php"
             <div class="col-md-6">
                 <img class="localisation-preview" src="/images/landing-page/departements.png" alt="Localisation">
             </div>
+        </div>
+        <div class="mt-4">
+            <p>
+                Chez Nuances Façade, nous sommes là pour répondre à vos besoins en matière de façade. Vous pouvez nous contacter en semaine par téléphone pour toutes vos questions ou demandes de devis gratuits.
+                De plus, notre formulaire de contact est accessible à tout moment, vous permettant ainsi de nous joindre facilement, quelle que soit l'heure.
+            </p>
+            <p class="mb-0">
+                En tant qu'entreprise spécialisée dans la façade à Valréas, nous intervenons dans les environs, couvrant les départements du Vaucluse, de la Drôme, de l'Ardèche et du Gard.
+                Notre équipe se déplace gratuitement pour évaluer vos besoins et vous fournir une solution adaptée. N'hésitez pas à nous contacter dès maintenant pour un service professionnel et personnalisé pour votre façade.
+            </p>
         </div>
     </div>
 </div>
