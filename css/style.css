@@ -15,8 +15,12 @@ body {
     align-self: stretch;
 }
 
+.navbar-brand {
+    padding: 0;
+}
+
 .navbar-brand > img {
-    height: 36px;
+    height: 48px;
 }
 
 #landing-home {
@@ -32,7 +36,6 @@ body {
 
 #landing-home > div {
     width: 500px;
-    text-align: justify;
 }
 
 #offcanvas-menu {

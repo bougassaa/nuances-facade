@@ -58,8 +58,25 @@ include_once 'layouts/header.php';
         <img src="/images/facades/home-3.jpeg" class="d-block w-100 h-100 object-fit-cover rounded-4" alt="Facade">
     </div>
 
+    <div class="mt-4">
+        <p>
+            Faites appel à un facadier <?= $city ?> expérimenté pour tous vos besoins en façade et découvrez les nombreux bénéfices que cela vous apporte.
+            Chez Nuances Façade, nous sommes spécialisés dans le ravalement de façade, le nettoyage de façade, le nettoyage de toiture et les joints de pierre.
+            En engageant notre équipe de facadiers qualifiés, vous bénéficiez d'un travail de qualité supérieure, réalisé avec expertise et savoir-faire.
+        </p>
+        <p>
+            Grâce à notre expertise, nous sommes en mesure de restaurer et de transformer l'aspect de votre façade, améliorant ainsi l'esthétique de votre propriété.
+            En choisissant un facadier local, vous bénéficiez également d'une connaissance approfondie des spécificités climatiques et architecturales de la région, garantissant un résultat adapté et durable.
+        </p>
+        <p>
+            Nous mettons tout en œuvre pour vous offrir un service personnalisé, répondant à vos besoins spécifiques.
+            En confiant votre projet à notre équipe, vous pouvez être assuré d'une prestation de qualité, avec des matériaux de première classe et des techniques avancées.
+            Ne laissez pas votre façade perdre de son éclat, contactez un facadier <?= $city ?> dès aujourd'hui pour redonner vie à votre extérieur.
+        </p>
+    </div>
+
     <div class="mt-3">
-        <p>Pages liées :</p>
+        <div>Pages liées :</div>
         <ul class="nav flex-column">
             <?php foreach ($routes as $key => $c): ?>
                 <li class="nav-item">

@@ -1,16 +1,16 @@
 <?php
-$title = 'Nuances Façade | Ravalement de façade, devis gratuit';
+$title = 'Nuances Façade | Façadier Vaucluse, Drome, Gard, Ardèche';
 $isHome = true;
 include_once "layouts/header.php"
 ?>
 
 <div class="p-3 align-items-end align-items-md-center justify-content-center" id="landing-home">
     <div class="text-light">
-        <h1>Nuances Façade</h1>
-        <p>
+        <h1>Nuances Façade, Ravalement de façade autour de Valréas</h1>
+        <p class="text-justify">
             Embellissez votre maison avec notre entreprise de <a class="link-light" href="/ravalement-facade">ravalement de façade</a> de qualité ! Nous sommes fiers de desservir les régions Drome, Vaucluse, Gard et Ardèche, et nous offrons une expertise dans la rénovation et le neuf, ainsi que dans le nettoyage de façade ancienne.
         </p>
-        <p>
+        <p class="text-justify">
             Nous sommes également heureux de proposer des devis et des déplacements gratuits pour tous nos clients. Faites confiance à notre expérience pour donner à votre maison une apparence neuve et fraîche !
         </p>
         <p>

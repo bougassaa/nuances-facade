@@ -13,6 +13,7 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="<?= $description ?>">
     <meta name="keywords" content="<?= $keywords ?>">
+    <meta name="language" content="fr-FR">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://www.nuances-facade.fr/">
@@ -29,8 +30,8 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
     <meta name="twitter:description" content="Spécialiste façadier dans le Vaucluse, la Drôme, le Gard et l'Ardèche. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures.">
     <meta name="twitter:image" content="https://www.nuances-facade.fr/images/logo/nf-logo-big.png">
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/images/logo/nf-logo-short.png" />
+    <link rel="shortcut icon" href="/images/logo/nf-logo-square-48.png" type="image/png">
+    <link rel="apple-touch-icon" href="/images/logo/nf-logo-square-144.png" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="canonical" href="https://www.nuances-facade.fr<?= (stripos($_SERVER['REQUEST_URI'], '/') !== 0 ? '/' : '') . $_SERVER['REQUEST_URI'] ?>" />
@@ -71,7 +72,7 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
 <nav class="navbar navbar-expand-md navbar-dark fixed-top <?= isset($isHome) ? 'home' : 'bg-dark' ?>">
     <div class="container">
         <a class="navbar-brand" href="/">
-            <img src="../images/logo/nf-logo-short.png" alt="Nuances Facade Logo">
+            <img src="../images/logo/nf-logo-square-144.png" alt="Nuances Facade Logo">
         </a>
         <button class="bg-transparent btn btn-lg py-0 d-inline d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-label="Ouvrir le menu">
             <span class="navbar-toggler-icon"></span>
