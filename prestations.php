@@ -4,7 +4,7 @@ $description = "Nuances Façade - Ravalement de façade et nettoyage facade, net
 include_once "layouts/header.php"
 ?>
 <div class="container container-min-height navbar-offset py-3">
-    <h1>Ravalement de façade</h1>
+    <h1>Nos autres prestations, nettoyage de façade, de toitures et joint de pierre</h1>
 
     <div class="alert alert-primary my-4">
         Chez Nuances Façade, notre activité principale est le <a href="/ravalement-facade">ravalement de façade</a>. Nous sommes spécialisés dans la rénovation et l'enduit de façade,
