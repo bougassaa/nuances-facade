@@ -31,7 +31,7 @@ if(!isset($routes[$_REQUEST['route']])) {
     return;
 }
 $city = $routes[$_REQUEST['route']];
-$title = "Ravalement de façade $city";
+$title = "Façadier $city | façade maison, nettoyage maison";
 $description = "Ravalement de facade vers $city. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures vers $city.";
 $keywords = "facade $city, facadier $city, ravalement facade $city, nettoyage facade $city, joint pierre $city, nuances facade $city";
 
@@ -71,7 +71,7 @@ include_once 'layouts/header.php';
         <p>
             Nous mettons tout en œuvre pour vous offrir un service personnalisé, répondant à vos besoins spécifiques.
             En confiant votre projet à notre équipe, vous pouvez être assuré d'une prestation de qualité, avec des matériaux de première classe et des techniques avancées.
-            Ne laissez pas votre façade perdre de son éclat, contactez un facadier <?= $city ?> dès aujourd'hui pour redonner vie à votre extérieur.
+            Ne laissez pas votre façade perdre de son éclat, contactez un façadier <?= $city ?> dès aujourd'hui pour redonner vie à votre extérieur.
         </p>
     </div>
 
@@ -79,6 +79,7 @@ include_once 'layouts/header.php';
         <div>Pages liées :</div>
         <ul class="nav flex-column">
             <?php foreach ($routes as $key => $c): ?>
+                <?php if ($city == $c) continue; ?>
                 <li class="nav-item">
                     <a class="nav-link" href="/prestation/<?= $key ?>">Ravalement de facade <?= $c ?></a>
                 </li>
