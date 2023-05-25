@@ -76,7 +76,7 @@ include_once 'layouts/header.php';
     </div>
 
     <div class="mt-3">
-        <div>Pages liées :</div>
+        <div>Les autres secteurs :</div>
         <ul class="nav flex-column">
             <?php foreach ($routes as $key => $c): ?>
                 <?php if ($city == $c) continue; ?>
