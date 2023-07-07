@@ -1,5 +1,5 @@
 <?php
-$title = 'Nuances Façade | Façadier Vaucluse, Drome, Gard, Ardèche';
+$title = 'Nuances Façade | Façadier Vaucluse, Drome, Gard, Ardèche - Ravalement de façade, Nettoyage de toiture, Joints de pierre';
 $isHome = true;
 include_once "layouts/header.php"
 ?>
@@ -98,6 +98,12 @@ include_once "layouts/header.php"
             Les avantages de faire appel à nous incluent non seulement une amélioration esthétique de votre propriété, mais également une augmentation de la durée de vie de votre façade grâce à notre traitement de qualité supérieure et à l'utilisation de produits écologiques et durables.
             Nous sommes également disponibles pour répondre à toutes vos questions et pour vous fournir des conseils utiles sur l'entretien de votre façade à long terme. N'hésitez pas à <a href="/contact">nous contacter</a> pour tous vos besoins en matière de ravalement de façade et de nettoyage de toiture.
         </p>
+    </div>
+    <h2 class="mb-4 mt-5">Les retours positifs de nos clients</h2>
+    <div class="row">
+        <div class="col-12 text-center">
+            <img class="" src="/images/logo/google-review.png" alt="google reviews">
+        </div>
     </div>
 </div>
 

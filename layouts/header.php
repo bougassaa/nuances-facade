@@ -82,6 +82,22 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
                 <li class="nav-item">
                     <a class="nav-link" href="/ravalement-facade">Ravalement de façade</a>
                 </li>
+                <li class="nav-item dropdown dropdown-hover">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-trigger="hover" aria-expanded="false">
+                        Nos prestations
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="/prestations#nettoyage-facade">Nettoyage de façade</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/prestations#nettoyage-toiture">Nettoyage de toiture</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/prestations#joint-pierre">Joints de pierre</a>
+                        </li>
+                    </ul>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/realisations">Réalisations</a>
                 </li>

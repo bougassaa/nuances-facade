@@ -54,6 +54,22 @@
             <li class="nav-item">
                 <a href="/ravalement-facade" class="nav-link">Ravalement de façade</a>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-trigger="hover" aria-expanded="false">
+                    Nos prestations
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="/prestations#nettoyage-facade">Nettoyage de façade</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/prestations#nettoyage-toiture">Nettoyage de toiture</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/prestations#joint-pierre">Joints de pierre</a>
+                    </li>
+                </ul>
+            </li>
             <li class="nav-item">
                 <a href="/realisations" class="nav-link">Réalisations</a>
             </li>

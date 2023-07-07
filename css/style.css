@@ -95,6 +95,10 @@ body {
     text-align: justify;
 }
 
+.dropdown-hover:hover > .dropdown-menu {
+    display: block;
+}
+
 @media (max-width: 768px) {
     #landing-home h1 {
         font-size: 2rem;
