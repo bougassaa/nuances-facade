@@ -207,6 +207,15 @@ include_once "layouts/header.php"
                         <a href="/contact" class="btn btn-outline-light">En cliquant ici</a>
                     </div>
                 </div>
+                <hr class="my-4">
+                <div>
+                    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100094400032058" data-tabs="" data-width=""
+                         data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/profile.php?id=100094400032058" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/profile.php?id=100094400032058">Nuances Façade</a>
+                        </blockquote>
+                    </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <img class="localisation-preview" src="/images/landing-page/departements.png" alt="Localisation">
@@ -224,5 +233,5 @@ include_once "layouts/header.php"
         </div>
     </div>
 </div>
-
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v17.0" nonce="DeIqnrIJ"></script>
 <?php include_once "layouts/footer.php" ?>
