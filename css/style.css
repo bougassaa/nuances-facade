@@ -99,6 +99,19 @@ body {
     display: block;
 }
 
+.google-review {
+    width: 280px;
+    max-width: 100%;
+}
+
+.avatar-review {
+    width: 2.4rem;
+}
+
+.stars-review {
+    width: 4.9rem;
+}
+
 @media (max-width: 768px) {
     #landing-home h1 {
         font-size: 2rem;
