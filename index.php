@@ -1,5 +1,5 @@
 <?php
-$title = 'Nuances Façade | Façadier Vaucluse, Drome, Gard, Ardèche - Ravalement de façade, Nettoyage de toiture, Joints de pierre';
+$title = 'Nuances Façade | Façadier Vaucluse, Drome, Gard, Ardèche Ravalement de façade';
 $isHome = true;
 include_once "layouts/header.php"
 ?>
@@ -177,7 +177,7 @@ include_once "layouts/header.php"
     </div>
     <div class="row">
         <div class="col-12 text-center">
-            <a href="https://g.page/r/CapAaNx-0yS-EB0/review">Vous pouvez nous laisser un avis ici</a> ⭐
+            <a href="https://g.page/r/CapAaNx-0yS-EB0/review">Vous pouvez nous laisser un avis ici</a>
         </div>
     </div>
 </div>
