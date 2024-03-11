@@ -73,6 +73,9 @@ include_once 'layouts/header.php';
             En confiant votre projet à notre équipe, vous pouvez être assuré d'une prestation de qualité, avec des matériaux de première classe et des techniques avancées.
             Ne laissez pas votre façade perdre de son éclat, contactez un façadier <?= $city ?> dès aujourd'hui pour redonner vie à votre extérieur.
         </p>
+        <p>
+            Voir <a href="/les-finitions-de-facade">ici nos finitions de crépi</a> ou sinon <a href="/realisations">ici pour nos réalisations</a>.
+        </p>
     </div>
 
     <div class="mt-3">

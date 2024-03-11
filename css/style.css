@@ -112,6 +112,12 @@ body {
     width: 4.9rem;
 }
 
+.img-finition {
+    width: 290px;
+    height: 160px;
+    object-fit: cover;
+}
+
 @media (max-width: 768px) {
     #landing-home h1 {
         font-size: 2rem;
@@ -124,5 +130,9 @@ body {
     #landing-home {
         background-image: url("../images/landing-page/landing-phone.jpeg");
         padding-bottom: 16vh !important;
+    }
+    
+    .arrow-image {
+        transform: rotate(90deg);
     }
 }

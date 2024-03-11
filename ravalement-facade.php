@@ -88,7 +88,8 @@ include_once "layouts/header.php"
                 <li><b>Le nettoyage de façade</b> : sablage, ponçage, nettoyage au Kärcher, peeling, nettoyage chimique, etc...</li>
                 <li><b>Le traitement de façade</b> : Une fois votre façade nettoyée, l’application d’un traitement adapté s’impose, qui dépendra de l’état de vos murs extérieurs</li>
                 <li><b>La rénovation de façade</b> : Une fois la façade nettoyée et traitée, les opérations de rénovation peuvent commencer : rebouchage des fissures, rénovation ou remplacement des joints.</li>
-                <li><b>Les finitions de façade</b> : enduit, bardage ou parement, il existe un vaste panel de finitions pour votre façade</li>
+                <li><b>Les finitions de façade</b> : Gratté (ou semi-gratté), taloché, rustique écrasé, brute... il existe un vaste panel de finitions pour votre façade.
+                    <a href="/les-finitions-de-facade">Voir ici les différentes finitions</a>.</li>
             </ul>
         </div>
     </div>

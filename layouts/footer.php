@@ -17,6 +17,9 @@
                         <a href="/prestations" class="nav-link text-secondary">Nos prestations</a>
                     </li>
                     <li>
+                        <a href="/les-finitions-de-facade" class="nav-link text-secondary">Les finitions de crépi</a>
+                    </li>
+                    <li>
                         <a href="/mentions-legales" class="nav-link text-secondary">Mentions légales</a>
                     </li>
                     <li>
