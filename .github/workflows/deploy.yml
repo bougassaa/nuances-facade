@@ -1,0 +1,32 @@
+name: Deploy to OVH FTP
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch: {}
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ftp.cluster027.hosting.ovh.net
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          server-dir: www/
+          # Fichiers/dossiers a NE PAS envoyer sur le FTP
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.idea/**
+            **/.DS_Store
+            sites.xml
+            README.md
+            .github/**
