@@ -2,7 +2,6 @@
 session_start();
 $title = $title ?? 'Nuances Façade';
 $description = $description ?? "Spécialiste façadier dans le Vaucluse, la Drôme, le Gard et l'Ardèche. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures.";
-$keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade ardèche, enduit façade, façadier vaucluse, facade, ravalement de facade";
 require_once __DIR__ . '/helpers.php';
 ?>
 <!DOCTYPE html>

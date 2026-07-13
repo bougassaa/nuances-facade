@@ -80,7 +80,7 @@ include_once "layouts/header.php"
 
     <div class="row mt-5 align-items-center">
         <div class="col-md mb-3">
-            <img src="/images/facades/chantier.png" class="d-block w-100 h-100 object-fit-cover rounded-4" alt="Chantier">
+            <?= renderImage('/images/facades/chantier.png', 'Chantier de ravalement de façade', ['class' => 'd-block w-100 h-100 object-fit-cover rounded-4']) ?>
         </div>
         <div class="col-md">
             <p>Plusieurs types de travaux de façade peuvent être entrepris en fonction du diagnostic établi :</p>

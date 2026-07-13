@@ -44,7 +44,7 @@ include_once "layouts/header.php"
     <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
-                <div class="card-work-preview" style="background-image: url('images/prestations/ravalement-facade.jpeg')"></div>
+                <div class="card-work-preview" style="background-image: url('/images/prestations/ravalement-facade.jpeg'); background-image: image-set(url('/images/prestations/ravalement-facade.webp') type('image/webp'), url('/images/prestations/ravalement-facade.jpeg') type('image/jpeg'))"></div>
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Ravalement de façade</h5>
                     <div class="card-text text-secondary">
@@ -56,7 +56,7 @@ include_once "layouts/header.php"
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
-                <div class="card-work-preview" style="background-image: url('images/prestations/nettoyage-facade.jpeg')"></div>
+                <div class="card-work-preview" style="background-image: url('/images/prestations/nettoyage-facade.jpeg'); background-image: image-set(url('/images/prestations/nettoyage-facade.webp') type('image/webp'), url('/images/prestations/nettoyage-facade.jpeg') type('image/jpeg'))"></div>
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Nettoyage de façade</h5>
                     <div class="card-text text-secondary">
@@ -68,7 +68,7 @@ include_once "layouts/header.php"
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
-                <div class="card-work-preview" style="background-image: url('images/prestations/nettoyage-toiture.jpeg')"></div>
+                <div class="card-work-preview" style="background-image: url('/images/prestations/nettoyage-toiture.jpeg'); background-image: image-set(url('/images/prestations/nettoyage-toiture.webp') type('image/webp'), url('/images/prestations/nettoyage-toiture.jpeg') type('image/jpeg'))"></div>
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Nettoyage de toitures</h5>
                     <div class="card-text text-secondary">
@@ -80,7 +80,7 @@ include_once "layouts/header.php"
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
-                <div class="card-work-preview" style="background-image: url('images/prestations/joint-pierre.jpeg')"></div>
+                <div class="card-work-preview" style="background-image: url('/images/prestations/joint-pierre.jpeg'); background-image: image-set(url('/images/prestations/joint-pierre.webp') type('image/webp'), url('/images/prestations/joint-pierre.jpeg') type('image/jpeg'))"></div>
                 <div class="card-body">
                     <h5 class="card-title text-truncate">Joints de pierre</h5>
                     <div class="card-text text-secondary">
@@ -102,7 +102,7 @@ include_once "layouts/header.php"
     <hr class="my-5" />
     <div class="row py-2">
         <div class="col-12 text-center">
-            <img class="google-review" src="/images/google-reviews/google-review-logo.png" alt="Avis Google">
+            <?= renderImage('/images/google-reviews/google-review-logo.png', 'Avis Google', ['class' => 'google-review']) ?>
         </div>
     </div>
     <div class="row my-3">
@@ -110,10 +110,10 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-body">
                     <div class="d-flex align-items-center gap-2 position-relative">
-                        <img class="avatar-review" src="/images/google-reviews/avatar-clotilde.png" alt="Avatar de Clotilde">
+                        <?= renderImage('/images/google-reviews/avatar-clotilde.png', 'Avatar de Clotilde', ['class' => 'avatar-review']) ?>
                         <div class="d-flex flex-column">
                             <span class="fw-semibold">Clotilde</span>
-                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="Note 5 étoiles">
+                            <?= renderImage('/images/google-reviews/stars.png', 'Note 5 étoiles', ['class' => 'stars-review']) ?>
                         </div>
                         <small class="text-muted position-absolute end-0">21/06/2023</small>
                     </div>
@@ -127,10 +127,10 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-body">
                     <div class="d-flex align-items-center gap-2 position-relative">
-                        <img class="avatar-review" src="/images/google-reviews/avatar-cyril.png" alt="Avatar de Cyril A.">
+                        <?= renderImage('/images/google-reviews/avatar-cyril.png', 'Avatar de Cyril A.', ['class' => 'avatar-review']) ?>
                         <div class="d-flex flex-column">
                             <span class="fw-semibold">Cyril A.</span>
-                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="Note 5 étoiles">
+                            <?= renderImage('/images/google-reviews/stars.png', 'Note 5 étoiles', ['class' => 'stars-review']) ?>
                         </div>
                         <small class="text-muted position-absolute end-0">27/05/2023</small>
                     </div>
@@ -144,10 +144,10 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-body">
                     <div class="d-flex align-items-center gap-2 position-relative">
-                        <img class="avatar-review" src="/images/google-reviews/avatar-thimote.png" alt="Avatar de Thimote H.">
+                        <?= renderImage('/images/google-reviews/avatar-thimote.png', 'Avatar de Thimote H.', ['class' => 'avatar-review']) ?>
                         <div class="d-flex flex-column">
                             <span class="fw-semibold">Thimote H.</span>
-                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="Note 5 étoiles">
+                            <?= renderImage('/images/google-reviews/stars.png', 'Note 5 étoiles', ['class' => 'stars-review']) ?>
                         </div>
                         <small class="text-muted position-absolute end-0">15/05/2023</small>
                     </div>
@@ -161,10 +161,10 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-body">
                     <div class="d-flex align-items-center gap-2 position-relative">
-                        <img class="avatar-review" src="/images/google-reviews/avatar-manuelle.png" alt="Avatar de Manuelle P.">
+                        <?= renderImage('/images/google-reviews/avatar-manuelle.png', 'Avatar de Manuelle P.', ['class' => 'avatar-review']) ?>
                         <div class="d-flex flex-column">
                             <span class="fw-semibold">Manuelle P.</span>
-                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="Note 5 étoiles">
+                            <?= renderImage('/images/google-reviews/stars.png', 'Note 5 étoiles', ['class' => 'stars-review']) ?>
                         </div>
                         <small class="text-muted position-absolute end-0">26/06/2023</small>
                     </div>
@@ -218,7 +218,7 @@ include_once "layouts/header.php"
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="localisation-preview" src="/images/landing-page/departements.png" alt="Localisation">
+                <?= renderImage('/images/landing-page/departements.png', 'Localisation', ['class' => 'localisation-preview']) ?>
             </div>
         </div>
         <div class="mt-4 text-justify">

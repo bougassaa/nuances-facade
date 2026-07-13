@@ -26,7 +26,9 @@ body {
 #landing-home {
     display: flex;
     height: 100vh;
-    background-image: url('../images/landing-page/landing-desktop.jpeg');
+    background-image: url('/images/landing-page/landing-desktop.jpeg');
+    background-image: -webkit-image-set(url('/images/landing-page/landing-desktop.webp') 1x);
+    background-image: image-set(url('/images/landing-page/landing-desktop.webp') type('image/webp'), url('/images/landing-page/landing-desktop.jpeg') type('image/jpeg'));
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(14px);
@@ -128,7 +130,9 @@ body {
     }
 
     #landing-home {
-        background-image: url("../images/landing-page/landing-phone.jpeg");
+        background-image: url("/images/landing-page/landing-phone.jpeg");
+        background-image: -webkit-image-set(url("/images/landing-page/landing-phone.webp") 1x);
+        background-image: image-set(url("/images/landing-page/landing-phone.webp") type('image/webp'), url("/images/landing-page/landing-phone.jpeg") type('image/jpeg'));
         padding-bottom: 16vh !important;
     }
     

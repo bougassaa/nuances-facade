@@ -44,7 +44,6 @@ if(!isset($_REQUEST['route']) || !isset($routes[$_REQUEST['route']])) {
 $city = $routes[$_REQUEST['route']];
 $title = "Façadier $city | façade maison, nettoyage maison";
 $description = "Ravalement de facade vers $city. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures vers $city.";
-$keywords = "facade $city, facadier $city, ravalement facade $city, nettoyage facade $city, joint pierre $city, nuances facade $city";
 
 include_once 'layouts/header.php';
 ?>
@@ -66,7 +65,7 @@ include_once 'layouts/header.php';
     </div>
 
     <div>
-        <img src="/images/facades/home-3.jpeg" class="d-block w-100 h-100 object-fit-cover rounded-4" alt="Facade">
+        <?= renderImage('/images/facades/home-3.jpeg', 'Façade rénovée par Nuances Façade', ['class' => 'd-block w-100 h-100 object-fit-cover rounded-4']) ?>
     </div>
 
     <div class="mt-4">

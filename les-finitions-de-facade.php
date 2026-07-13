@@ -13,7 +13,7 @@ include_once "layouts/header.php"
 
         <div class="row">
             <div class="col-auto">
-                <img class="rounded-3 img-fluid img-finition" src="images/finitions/enduit-gratte.jpg" alt="gratte enduit">
+                <?= renderImage('/images/finitions/enduit-gratte.jpg', 'Enduit gratté', ['class' => 'rounded-3 img-fluid img-finition']) ?>
             </div>
             <div class="col-sm-6 col-lg-4">
                 <p>Cette technique implique l'application d'un enduit de façade suivi d'un grattage léger une fois qu'il commence à sécher. Le résultat est une surface finement texturée, avec un aspect légèrement granuleux, offrant une élégance discrète à votre façade.</p>
@@ -26,7 +26,7 @@ include_once "layouts/header.php"
 
         <div class="row">
             <div class="col-auto">
-                <img class="rounded-3 img-fluid img-finition" src="images/finitions/semi-gratte.jpg" alt="semi gratte enduit">
+                <?= renderImage('/images/finitions/semi-gratte.jpg', 'Enduit semi-gratté', ['class' => 'rounded-3 img-fluid img-finition']) ?>
             </div>
             <div class="col-sm-6 col-lg-4">
                 <p>Moins travaillée que la finition grattée, la semi-grattée offre un équilibre parfait entre subtilité et texture. Elle conserve une certaine rugosité, apportant un caractère plus marqué à la surface sans être trop imposante.</p>
@@ -39,7 +39,7 @@ include_once "layouts/header.php"
 
         <div class="row">
             <div class="col-auto">
-                <img class="rounded-3 img-fluid img-finition" src="images/finitions/crepi-ecrase.jpg" alt="ecrase enduit">
+                <?= renderImage('/images/finitions/crepi-ecrase.jpg', 'Crépi écrasé', ['class' => 'rounded-3 img-fluid img-finition']) ?>
             </div>
             <div class="col-sm-6 col-lg-4">
                 <p>Cette finition est obtenue en écrasant l'enduit contre la paroi puis en lissant légèrement la surface, créant ainsi un motif délicat et irrégulier. Elle donne une texture plus prononcée que la finition grattée, idéale pour ajouter du dynamisme à votre façade.</p>
@@ -52,7 +52,7 @@ include_once "layouts/header.php"
 
         <div class="row">
             <div class="col-auto">
-                <img class="rounded-3 img-fluid img-finition" src="images/finitions/enduit-taloche.jpeg" alt="taloche enduit">
+                <?= renderImage('/images/finitions/enduit-taloche.jpeg', 'Enduit taloché', ['class' => 'rounded-3 img-fluid img-finition']) ?>
             </div>
             <div class="col-sm-6 col-lg-4">
                 <p>La finition talochée est réalisée à l'aide d'une taloche, permettant de lisser l'enduit pour obtenir une surface uniforme. Selon l'outil utilisé et la technique de l'artisan, le résultat peut varier de lisse à légèrement texturé, offrant une vaste gamme d'effets esthétiques.</p>
@@ -65,7 +65,7 @@ include_once "layouts/header.php"
 
         <div class="row">
             <div class="col-auto">
-                <img class="rounded-3 img-fluid img-finition" src="images/finitions/enduit-brute.jpg" alt="brute enduit">
+                <?= renderImage('/images/finitions/enduit-brute.jpg', 'Enduit brut', ['class' => 'rounded-3 img-fluid img-finition']) ?>
             </div>
             <div class="col-sm-6 col-lg-4">
                 <p>Fidèle à son nom, la finition brute laisse l'enduit dans son état naturel après application. Cette approche minimaliste révèle les marques de travail et les imperfections, conférant un aspect authentique et brut à la façade.</p>
@@ -78,7 +78,7 @@ include_once "layouts/header.php"
 
         <div class="row">
             <div class="col-auto">
-                <img class="rounded-3 img-fluid img-finition" src="images/finitions/enduit-rustique.jpg" alt="rustique enduit">
+                <?= renderImage('/images/finitions/enduit-rustique.jpg', 'Enduit rustique', ['class' => 'rounded-3 img-fluid img-finition']) ?>
             </div>
             <div class="col-sm-6 col-lg-4">
                 <p>En utilisant une taloche spécifique ou d'autres outils, cette finition crée un relief et une texture prononcés, évoquant le charme et la chaleur des constructions traditionnelles. Elle est idéale pour ceux qui souhaitent apporter un caractère historique ou une ambiance chaleureuse à leur habitation.</p>
