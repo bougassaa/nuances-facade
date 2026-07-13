@@ -16,7 +16,7 @@ include_once "layouts/header.php"
     <div class="row g-4 mb-4">
         <div class="col-md-6">
             <a class="anchor" id="nettoyage-facade"></a>
-            <img src="/images/prestations/nettoyage-facade.jpeg" class="d-block w-100 h-100 object-fit-cover rounded-4" alt="Nettoyage facade">
+            <?= renderImage('/images/prestations/nettoyage-facade.jpeg', 'Nettoyage de façade au Kärcher', ['class' => 'd-block w-100 h-100 object-fit-cover rounded-4']) ?>
         </div>
         <div class="col-md-6">
             <h3>Nettoyage de façade</h3>
@@ -30,7 +30,7 @@ include_once "layouts/header.php"
     <div class="row g-4 mb-4">
         <div class="col-md-6 order-md-1">
             <a class="anchor" id="nettoyage-toiture"></a>
-            <img src="/images/prestations/nettoyage-toiture.jpeg" class="d-block w-100 h-100 object-fit-cover rounded-4" alt="Nettoyage toiture">
+            <?= renderImage('/images/prestations/nettoyage-toiture.jpeg', 'Nettoyage de toiture (mousses et lichens)', ['class' => 'd-block w-100 h-100 object-fit-cover rounded-4']) ?>
         </div>
         <div class="col-md-6 order-md-0">
             <h3>Nettoyage de toiture</h3>
@@ -44,7 +44,7 @@ include_once "layouts/header.php"
     <div class="row g-4 mb-4">
         <div class="col-md-6">
             <a class="anchor" id="joint-pierre"></a>
-            <img src="/images/prestations/joint-pierre.jpeg" class="d-block w-100 h-100 object-fit-cover rounded-4" alt="Joint pierre">
+            <?= renderImage('/images/prestations/joint-pierre.jpeg', 'Réfection de joints de pierre', ['class' => 'd-block w-100 h-100 object-fit-cover rounded-4']) ?>
         </div>
         <div class="col-md-6">
             <h3>Joint de pierre</h3>

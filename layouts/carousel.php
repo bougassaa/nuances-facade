@@ -7,17 +7,17 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="/images/facades/home-2.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Maison 2">
+            <?= renderImage('/images/facades/home-2.jpeg', 'Ravalement de façade — maison rénovée', ['class' => 'd-block w-100 h-100 object-fit-cover', 'lazy' => false]) ?>
         </div>
         <div class="carousel-item">
-            <img src="/images/facades/home-1.png" class="d-block w-100 h-100 object-fit-cover" alt="Maison 1">
+            <?= renderImage('/images/facades/home-1.png', 'Façade rénovée par Nuances Façade', ['class' => 'd-block w-100 h-100 object-fit-cover']) ?>
         </div>
         <div class="carousel-item">
-            <img src="/images/facades/home-3.jpeg" class="d-none d-md-block w-100 h-100 object-fit-cover" alt="Maison 3">
-            <img src="/images/facades/home-5.png" class="d-block d-md-none w-100 h-100 object-fit-cover" alt="Maison 3 bis">
+            <?= renderImage('/images/facades/home-3.jpeg', 'Ravalement de façade — réalisation', ['class' => 'd-none d-md-block w-100 h-100 object-fit-cover']) ?>
+            <?= renderImage('/images/facades/home-5.png', 'Ravalement de façade — réalisation (mobile)', ['class' => 'd-block d-md-none w-100 h-100 object-fit-cover']) ?>
         </div>
         <div class="carousel-item">
-            <img src="/images/facades/home-4.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Maison 4">
+            <?= renderImage('/images/facades/home-4.jpeg', 'Façade neuve réalisée par Nuances Façade', ['class' => 'd-block w-100 h-100 object-fit-cover']) ?>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#realisations-carousel" data-bs-slide="prev">
