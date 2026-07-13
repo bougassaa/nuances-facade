@@ -56,6 +56,22 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
             ]
         }
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-954007139">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-954007139');
+    </script>
+    <!-- Event snippet for Website traffic conversion page (only for contact page) -->
+    <?php if (strpos($_SERVER['REQUEST_URI'], 'contact') !== false): ?>
+        <script>
+            gtag('event', 'conversion', {'send_to': 'AW-954007139/pCOaCNO0x58YEOP888YD'});
+        </script>
+    <?php endif; ?>
 </head>
 <body>
 

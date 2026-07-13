@@ -32,22 +32,20 @@ if(!isset($routes[$_REQUEST['route']])) {
     return;
 }
 $city = $routes[$_REQUEST['route']];
-$title = "Façadier $city | façade maison, nettoyage maison";
-$description = "Ravalement de facade vers $city. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures vers $city.";
-$keywords = "facade $city, facadier $city, ravalement facade $city, nettoyage facade $city, joint pierre $city, nuances facade $city";
+$title = "Ravalement de façade $city";
 
 include_once 'layouts/header.php';
 ?>
 <div class="container container-min-height navbar-offset py-3">
     <h1>Ravalement de façade <?= $city ?></h1>
     <p>
-        Chez Nuances Façade, nous sommes spécialisés dans le ravalement de façade et les prestations qui y sont liées pour les habitants vers <?= $city ?>.
+        Chez Nuances Façade, nous sommes spécialisés dans le ravalement de façade et les prestations qui y sont liées pour les habitants de <?= $city ?>.
         Nous sommes à votre disposition pour rénover et embellir votre façade en utilisant les techniques les plus modernes et les matériaux les plus adaptés.
         Que vous soyez un particulier ou un professionnel, nous pouvons également effectuer des travaux de nettoyage de façade, de nettoyage de toiture et de joints
-        de pierre pour vous offrir une maison ou un bâtiment impeccable vers <?= $city ?>.
+        de pierre pour vous offrir une maison ou un bâtiment impeccable à <?= $city ?>.
     </p>
     <p>
-        Contactez-nous dès aujourd'hui pour obtenir un devis gratuit et bénéficier de notre expertise et de notre savoir-faire pour tous vos projets de rénovation de façade vers <?= $city ?>.
+        Contactez-nous dès aujourd'hui pour obtenir un devis gratuit et bénéficier de notre expertise et de notre savoir-faire pour tous vos projets de rénovation de façade à <?= $city ?>.
     </p>
 
     <div class="alert alert-success" role="alert">
@@ -59,31 +57,10 @@ include_once 'layouts/header.php';
         <img src="/images/facades/home-3.jpeg" class="d-block w-100 h-100 object-fit-cover rounded-4" alt="Facade">
     </div>
 
-    <div class="mt-4">
-        <p>
-            Faites appel à un facadier <?= $city ?> expérimenté pour tous vos besoins en façade et découvrez les nombreux bénéfices que cela vous apporte.
-            Chez Nuances Façade, nous sommes spécialisés dans le ravalement de façade, le nettoyage de façade, le nettoyage de toiture et les joints de pierre.
-            En engageant notre équipe de facadiers qualifiés, vous bénéficiez d'un travail de qualité supérieure, réalisé avec expertise et savoir-faire.
-        </p>
-        <p>
-            Grâce à notre expertise, nous sommes en mesure de restaurer et de transformer l'aspect de votre façade, améliorant ainsi l'esthétique de votre propriété.
-            En choisissant un facadier local, vous bénéficiez également d'une connaissance approfondie des spécificités climatiques et architecturales de la région, garantissant un résultat adapté et durable.
-        </p>
-        <p>
-            Nous mettons tout en œuvre pour vous offrir un service personnalisé, répondant à vos besoins spécifiques.
-            En confiant votre projet à notre équipe, vous pouvez être assuré d'une prestation de qualité, avec des matériaux de première classe et des techniques avancées.
-            Ne laissez pas votre façade perdre de son éclat, contactez un façadier <?= $city ?> dès aujourd'hui pour redonner vie à votre extérieur.
-        </p>
-        <p>
-            Voir <a href="/les-finitions-de-facade">ici nos finitions de crépi</a> ou sinon <a href="/realisations">ici pour nos réalisations</a>.
-        </p>
-    </div>
-
     <div class="mt-3">
-        <div>Les autres secteurs :</div>
+        <p>Pages liées :</p>
         <ul class="nav flex-column">
             <?php foreach ($routes as $key => $c): ?>
-                <?php if ($city == $c) continue; ?>
                 <li class="nav-item">
                     <a class="nav-link" href="/prestation/<?= $key ?>">Ravalement de facade <?= $c ?></a>
                 </li>
