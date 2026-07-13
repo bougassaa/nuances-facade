@@ -10,11 +10,11 @@
             <?= renderImage('/images/facades/home-2.jpeg', 'Ravalement de façade — maison rénovée', ['class' => 'd-block w-100 h-100 object-fit-cover', 'lazy' => false]) ?>
         </div>
         <div class="carousel-item">
-            <?= renderImage('/images/facades/home-1.png', 'Façade rénovée par Nuances Façade', ['class' => 'd-block w-100 h-100 object-fit-cover']) ?>
+            <?= renderImage('/images/facades/home-1.jpg', 'Façade rénovée par Nuances Façade', ['class' => 'd-block w-100 h-100 object-fit-cover']) ?>
         </div>
         <div class="carousel-item">
             <?= renderImage('/images/facades/home-3.jpeg', 'Ravalement de façade — réalisation', ['class' => 'd-none d-md-block w-100 h-100 object-fit-cover']) ?>
-            <?= renderImage('/images/facades/home-5.png', 'Ravalement de façade — réalisation (mobile)', ['class' => 'd-block d-md-none w-100 h-100 object-fit-cover']) ?>
+            <?= renderImage('/images/facades/home-5.jpg', 'Ravalement de façade — réalisation (mobile)', ['class' => 'd-block d-md-none w-100 h-100 object-fit-cover']) ?>
         </div>
         <div class="carousel-item">
             <?= renderImage('/images/facades/home-4.jpeg', 'Façade neuve réalisée par Nuances Façade', ['class' => 'd-block w-100 h-100 object-fit-cover']) ?>
