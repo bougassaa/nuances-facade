@@ -1,3 +1,7 @@
+# Desactive MultiViews : sinon OVH transforme /contact en /contact.php AVANT
+# nos regles, ce qui casse les redirections. On gere le mapping .php nous-memes.
+Options -MultiViews
+
 RewriteEngine On
 
 # ============================================================
@@ -12,7 +16,7 @@ RewriteRule ^ https://www.nuances-facade.fr%{REQUEST_URI} [R=301,L]
 #  2. /index.php et /index  ->  /   (301)
 # ============================================================
 RewriteCond %{THE_REQUEST} \s/+index(\.php)?[\s?] [NC]
-RewriteRule ^ / [R=301,L]
+RewriteRule ^ https://www.nuances-facade.fr/ [R=301,L]
 
 # ============================================================
 #  3. Supprimer l'extension .php visible  ->  URL propre (301)
@@ -22,13 +26,13 @@ RewriteRule ^ / [R=301,L]
 # ============================================================
 RewriteCond %{REQUEST_METHOD} GET
 RewriteCond %{THE_REQUEST} \s/+((?!send-contact|routerCities|router)[^?\s]+)\.php[\s?] [NC]
-RewriteRule ^ /%1 [R=301,L]
+RewriteRule ^ https://www.nuances-facade.fr/%1 [R=301,L]
 
 # ============================================================
 #  4. Supprimer le slash final (sauf racine)  ->  301
 # ============================================================
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+?)/+$ /$1 [R=301,L]
+RewriteRule ^(.+?)/+$ https://www.nuances-facade.fr/$1 [R=301,L]
 
 # ============================================================
 #  5. Pages villes : /prestation/xxx  ->  routerCities.php (interne)
