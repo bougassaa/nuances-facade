@@ -93,11 +93,11 @@ Cinq jalons livrables indépendamment, du plus rentable-rapide au plus long. Cha
 - **Blog** :
   - page index `/blog` servie par `blog.php` (cohérent avec le routing `.htaccess` qui mappe `/blog` → `blog.php`) ;
   - articles dans le dossier `blog/`, URL `/blog/{slug}` → `blog/{slug}.php`, réutilisant `header.php`/`footer.php`, avec schema `Article` ;
-  - 4–5 articles guides rédigés avec placeholders : « Prix d'un ravalement au m² en 2026 », « Aides & subventions 2026 », « Quand ravaler sa façade ? (obligations) », « Crépi gratté, taloché, écrasé : quelle finition choisir ? », « Enduit qui se fissure : causes et solutions » ;
+  - 3 articles guides rédigés avec placeholders : « Prix d'un ravalement au m² en 2026 », « Aides & subventions 2026 », « Quand ravaler sa façade ? (obligations) » ;
   - ajout des URLs au `sitemap.xml` ; maillage interne des articles vers pages prestations/villes.
 - **Enrichissement `realisations.php`** : titre + ville + type de prestation + `alt` riches par chantier (contenu géolocalisé).
 
-**Critères de succès :** 24 pages villes non dupliquées (intro + FAQ variables), pages À propos & Tarifs en ligne, blog avec index + 4–5 articles indexables et liés dans le sitemap.
+**Critères de succès :** 24 pages villes non dupliquées (intro + FAQ variables), pages À propos & Tarifs en ligne, blog avec index + 3 articles indexables et liés dans le sitemap.
 
 ### Jalon 4 — Conversion
 
