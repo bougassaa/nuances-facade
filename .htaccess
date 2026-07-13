@@ -24,7 +24,7 @@ RewriteRule ^ https://www.nuances-facade.fr/ [R=301,L]
 #     - on exclut send-contact / routerCities / router pour ne pas
 #       casser le formulaire ni creer de boucle
 # ============================================================
-RewriteCond %{REQUEST_METHOD} GET
+RewriteCond %{REQUEST_METHOD} ^(GET|HEAD)$
 RewriteCond %{THE_REQUEST} \s/+((?!send-contact|routerCities|router)[^?\s]+)\.php[\s?] [NC]
 RewriteRule ^ https://www.nuances-facade.fr/%1 [R=301,L]
 
