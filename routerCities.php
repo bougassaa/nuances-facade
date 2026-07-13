@@ -27,8 +27,18 @@ $routes = [
     'ravalement-facade-avignon' => 'Avignon',
 ];
 
-if(!isset($routes[$_REQUEST['route']])) {
-    header('Location: /');
+if(!isset($_REQUEST['route']) || !isset($routes[$_REQUEST['route']])) {
+    http_response_code(404);
+    $title = "Page introuvable | Nuances Façade";
+    include_once 'layouts/header.php';
+    ?>
+    <div class="container container-min-height navbar-offset py-5 text-center">
+        <h1>Page introuvable</h1>
+        <p>La page que vous cherchez n'existe pas ou a été déplacée.</p>
+        <a href="/" class="btn btn-primary">Retour à l'accueil</a>
+    </div>
+    <?php
+    include_once 'layouts/footer.php';
     return;
 }
 $city = $routes[$_REQUEST['route']];

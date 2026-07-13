@@ -34,7 +34,8 @@ $keywords = $keywords ?? "façade vaucluse, façade drome, façade gard, façade
     <link rel="apple-touch-icon" href="/images/logo/nf-logo-square-144.png" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="canonical" href="https://www.nuances-facade.fr<?= (stripos($_SERVER['REQUEST_URI'], '/') !== 0 ? '/' : '') . $_SERVER['REQUEST_URI'] ?>" />
+    <?php $canonicalPath = rtrim(strtok($_SERVER['REQUEST_URI'], '?'), '/'); ?>
+    <link rel="canonical" href="https://www.nuances-facade.fr<?= $canonicalPath === '' ? '/' : $canonicalPath ?>" />
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
