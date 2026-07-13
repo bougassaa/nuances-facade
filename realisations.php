@@ -1,5 +1,6 @@
 <?php
-$title = 'Réalisations | Un petit aperçu de notre travail';
+$title = 'Réalisations avant/après | Nuances Façade';
+$description = "Découvrez nos chantiers de ravalement et nettoyage de façade avant/après en Vaucluse, Drôme, Gard et Ardèche.";
 include_once "layouts/header.php"
 ?>
 <div class="container container-min-height navbar-offset py-3">

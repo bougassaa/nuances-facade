@@ -13,7 +13,6 @@ require_once __DIR__ . '/helpers.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="<?= $description ?>">
-    <meta name="keywords" content="<?= $keywords ?>">
     <meta name="language" content="fr-FR">
 
     <!-- Facebook Meta Tags -->
@@ -21,7 +20,7 @@ require_once __DIR__ . '/helpers.php';
     <meta property="og:type" content="website">
     <meta property="og:title" content="Nuances Façade - Ravalement de façade">
     <meta property="og:description" content="Spécialiste façadier dans le Vaucluse, la Drôme, le Gard et l'Ardèche. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures.">
-    <meta property="og:image" content="https://www.nuances-facade.fr/images/logo/nf-logo-big.png">
+    <meta property="og:image" content="https://www.nuances-facade.fr/images/facades/home-2.jpeg">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -29,7 +28,7 @@ require_once __DIR__ . '/helpers.php';
     <meta property="twitter:url" content="https://www.nuances-facade.fr/">
     <meta name="twitter:title" content="Nuances Façade - Ravalement de façade">
     <meta name="twitter:description" content="Spécialiste façadier dans le Vaucluse, la Drôme, le Gard et l'Ardèche. Devis gratuits pour enduits, joints de pierre, nettoyage de façades et toitures.">
-    <meta name="twitter:image" content="https://www.nuances-facade.fr/images/logo/nf-logo-big.png">
+    <meta name="twitter:image" content="https://www.nuances-facade.fr/images/facades/home-2.jpeg">
 
     <link rel="shortcut icon" href="/images/logo/nf-logo-square-48.png" type="image/png">
     <link rel="apple-touch-icon" href="/images/logo/nf-logo-square-144.png" />
@@ -90,7 +89,7 @@ require_once __DIR__ . '/helpers.php';
 <nav class="navbar navbar-expand-md navbar-dark fixed-top <?= isset($isHome) ? 'home' : 'bg-dark' ?>">
     <div class="container">
         <a class="navbar-brand" href="/">
-            <img src="../images/logo/nf-logo-square-144.png" alt="Nuances Facade Logo">
+            <img src="/images/logo/nf-logo-square-144.png" width="72" height="72" alt="Logo Nuances Façade">
         </a>
         <button class="bg-transparent btn btn-lg py-0 d-inline d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-label="Ouvrir le menu">
             <span class="navbar-toggler-icon"></span>

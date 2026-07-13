@@ -1,5 +1,5 @@
 <?php
-$title = 'Nuances Façade | Façadier Vaucluse, Drome, Gard, Ardèche Ravalement de façade';
+$title = 'Ravalement de façade en Vaucluse | Nuances Façade';
 $isHome = true;
 include_once "layouts/header.php"
 ?>

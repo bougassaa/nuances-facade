@@ -1,5 +1,5 @@
 <?php
-$title = 'Les finitions de façade, les plus populaires et lesquels choisir ?';
+$title = 'Les finitions de crépi de façade | Nuances Façade';
 $description = "Nuances Façade - Guide des Finitions de Façade : Choisir le Bon Look pour Votre Maison.";
 include_once "layouts/header.php"
 ?>

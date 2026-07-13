@@ -1,4 +1,4 @@
-<?php $title = 'Contact - Devis gratuit'; include_once "layouts/header.php" ?>
+<?php $title = 'Contact & devis gratuit | Nuances Façade'; $description = "Contactez Nuances Façade pour un devis gratuit de ravalement ou nettoyage de façade en Vaucluse, Drôme, Gard et Ardèche."; include_once "layouts/header.php" ?>
 <div class="container container-min-height navbar-offset">
     <h1 class="py-3">Page de contact</h1>
     <div class="row">

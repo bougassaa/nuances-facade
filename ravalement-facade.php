@@ -1,5 +1,5 @@
 <?php
-$title = 'Ravalement de façade | Nous vous expliquons';
+$title = 'Ravalement de façade : tout comprendre | Nuances Façade';
 $description = "Le ravalement de façade, c’est la remise en état des façades et des accessoires apparents d’une maison ou d’un immeuble en copropriété (dispositifs de fermeture ou de protection).";
 include_once "layouts/header.php"
 ?>
