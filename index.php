@@ -8,7 +8,7 @@ include_once "layouts/header.php"
     <div class="text-light">
         <h1>Nuances Façade, façadier spécialisé</h1>
         <p class="text-justify">
-            Embellissez votre maison avec notre entreprise de <a class="link-light" href="/ravalement-facade">ravalement de façade</a> de qualité ! Nous sommes fiers de desservir les régions Drome, Vaucluse, Gard et Ardèche, et nous offrons une expertise dans la rénovation et le neuf, ainsi que dans le nettoyage de façade ancienne.
+            Embellissez votre maison avec notre entreprise de <a class="link-light" href="/ravalement-facade">ravalement de façade</a> de qualité ! Nous sommes fiers de desservir les régions Drôme, Vaucluse, Gard et Ardèche, et nous offrons une expertise dans la rénovation et le neuf, ainsi que dans le nettoyage de façade ancienne.
         </p>
         <p class="text-justify">
             Nous sommes également heureux de proposer des devis et des déplacements gratuits pour tous nos clients. Faites confiance à notre expérience pour donner à votre maison une apparence neuve et fraîche !
@@ -102,7 +102,7 @@ include_once "layouts/header.php"
     <hr class="my-5" />
     <div class="row py-2">
         <div class="col-12 text-center">
-            <img class="google-review" src="/images/google-reviews/google-review-logo.png" alt="google reviews">
+            <img class="google-review" src="/images/google-reviews/google-review-logo.png" alt="Avis Google">
         </div>
     </div>
     <div class="row my-3">
@@ -110,10 +110,10 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-body">
                     <div class="d-flex align-items-center gap-2 position-relative">
-                        <img class="avatar-review" src="/images/google-reviews/avatar-clotilde.png" alt="avatar clo">
+                        <img class="avatar-review" src="/images/google-reviews/avatar-clotilde.png" alt="Avatar de Clotilde">
                         <div class="d-flex flex-column">
                             <span class="fw-semibold">Clotilde</span>
-                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="stars reviews">
+                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="Note 5 étoiles">
                         </div>
                         <small class="text-muted position-absolute end-0">21/06/2023</small>
                     </div>
@@ -127,10 +127,10 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-body">
                     <div class="d-flex align-items-center gap-2 position-relative">
-                        <img class="avatar-review" src="/images/google-reviews/avatar-cyril.png" alt="avatar clo">
+                        <img class="avatar-review" src="/images/google-reviews/avatar-cyril.png" alt="Avatar de Cyril A.">
                         <div class="d-flex flex-column">
                             <span class="fw-semibold">Cyril A.</span>
-                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="stars reviews">
+                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="Note 5 étoiles">
                         </div>
                         <small class="text-muted position-absolute end-0">27/05/2023</small>
                     </div>
@@ -144,10 +144,10 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-body">
                     <div class="d-flex align-items-center gap-2 position-relative">
-                        <img class="avatar-review" src="/images/google-reviews/avatar-thimote.png" alt="avatar clo">
+                        <img class="avatar-review" src="/images/google-reviews/avatar-thimote.png" alt="Avatar de Thimote H.">
                         <div class="d-flex flex-column">
                             <span class="fw-semibold">Thimote H.</span>
-                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="stars reviews">
+                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="Note 5 étoiles">
                         </div>
                         <small class="text-muted position-absolute end-0">15/05/2023</small>
                     </div>
@@ -161,10 +161,10 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-body">
                     <div class="d-flex align-items-center gap-2 position-relative">
-                        <img class="avatar-review" src="/images/google-reviews/avatar-manuelle.png" alt="avatar clo">
+                        <img class="avatar-review" src="/images/google-reviews/avatar-manuelle.png" alt="Avatar de Manuelle P.">
                         <div class="d-flex flex-column">
                             <span class="fw-semibold">Manuelle P.</span>
-                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="stars reviews">
+                            <img class="stars-review" src="/images/google-reviews/stars.png" alt="Note 5 étoiles">
                         </div>
                         <small class="text-muted position-absolute end-0">26/06/2023</small>
                     </div>

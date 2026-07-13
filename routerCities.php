@@ -2,7 +2,7 @@
 
 $routes = [
     'ravalement-facade-vaucluse' => 'Vaucluse - 84',
-    'ravalement-facade-drome' => 'Drome - 26',
+    'ravalement-facade-drome' => 'Drôme - 26',
     'ravalement-facade-gard' => 'Gard - 30',
     'ravalement-facade-ardeche' => 'Ardèche - 07',
     'ravalement-facade-orange' => 'Orange',

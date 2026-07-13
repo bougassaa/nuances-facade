@@ -43,7 +43,7 @@ require_once __DIR__ . '/helpers.php';
             "name": "Nuances Façade",
             "url": "https://www.nuances-facade.fr/",
             "image": "https://www.nuances-facade.fr/images/logo/nf-logo-long.png",
-            "description": "Entreprise de ravalement de façade et prestations associées (nettoyage, joints de pierre) dans les régions de Drome, Vaucluse, Gard et Ardèche. Devis gratuit.",
+            "description": "Entreprise de ravalement de façade et prestations associées (nettoyage, joints de pierre) dans les régions de Drôme, Vaucluse, Gard et Ardèche. Devis gratuit.",
             "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Valréas",

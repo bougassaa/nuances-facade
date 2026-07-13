@@ -1,6 +1,6 @@
 <?php
 $title = 'Nettoyage de façade et de toiture | Nuances Façade';
-$description = "Nuances Façade - Ravalement de façade et nettoyage facade, nettoyage toiture, joints de pierre. Dans Drome, Vaucluse, Gard, Ardèche.";
+$description = "Nuances Façade - Ravalement de façade et nettoyage facade, nettoyage toiture, joints de pierre. Dans Drôme, Vaucluse, Gard, Ardèche.";
 include_once "layouts/header.php"
 ?>
 <div class="container container-min-height navbar-offset py-3">
