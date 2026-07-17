@@ -124,3 +124,5 @@ require_once __DIR__ . '/helpers.php';
         </div>
     </div>
 </nav>
+
+<main>

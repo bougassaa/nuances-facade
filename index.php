@@ -46,7 +46,7 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-work-preview" style="background-image: url('/images/prestations/ravalement-facade.jpeg'); background-image: image-set(url('/images/prestations/ravalement-facade.webp') type('image/webp'), url('/images/prestations/ravalement-facade.jpeg') type('image/jpeg'))"></div>
                 <div class="card-body">
-                    <h5 class="card-title text-truncate">Ravalement de façade</h5>
+                    <h3 class="card-title text-truncate h5">Ravalement de façade</h3>
                     <div class="card-text text-secondary">
                         Rénovez et donnez un aspect neuf à votre maison ou clôture grâce à notre service de ravalement de façade professionnel. Sur du neuf ou rénovation.
                         <a href="/ravalement-facade" class="stretched-link">Voir plus...</a>
@@ -58,7 +58,7 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-work-preview" style="background-image: url('/images/prestations/nettoyage-facade.jpeg'); background-image: image-set(url('/images/prestations/nettoyage-facade.webp') type('image/webp'), url('/images/prestations/nettoyage-facade.jpeg') type('image/jpeg'))"></div>
                 <div class="card-body">
-                    <h5 class="card-title text-truncate">Nettoyage de façade</h5>
+                    <h3 class="card-title text-truncate h5">Nettoyage de façade</h3>
                     <div class="card-text text-secondary">
                         Redonnez à votre façade son éclat d'origine. Nous éliminons la saleté, la moisissure et les taches pour une apparence fraîche et propre.
                         <a href="/prestations#nettoyage-facade" class="stretched-link">Voir plus...</a>
@@ -70,7 +70,7 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-work-preview" style="background-image: url('/images/prestations/nettoyage-toiture.jpeg'); background-image: image-set(url('/images/prestations/nettoyage-toiture.webp') type('image/webp'), url('/images/prestations/nettoyage-toiture.jpeg') type('image/jpeg'))"></div>
                 <div class="card-body">
-                    <h5 class="card-title text-truncate">Nettoyage de toitures</h5>
+                    <h3 class="card-title text-truncate h5">Nettoyage de toitures</h3>
                     <div class="card-text text-secondary">
                         Protégez votre toit et préservez sa durée de vie. Nous éliminons les champignons, les lichens et les mousses pour une meilleure résistance aux intempéries.
                         <a href="/prestations#nettoyage-toiture" class="stretched-link">Voir plus...</a>
@@ -82,7 +82,7 @@ include_once "layouts/header.php"
             <div class="card h-100">
                 <div class="card-work-preview" style="background-image: url('/images/prestations/joint-pierre.jpeg'); background-image: image-set(url('/images/prestations/joint-pierre.webp') type('image/webp'), url('/images/prestations/joint-pierre.jpeg') type('image/jpeg'))"></div>
                 <div class="card-body">
-                    <h5 class="card-title text-truncate">Joints de pierre</h5>
+                    <h3 class="card-title text-truncate h5">Joints de pierre</h3>
                     <div class="card-text text-secondary">
                         Améliorez la stabilité et l'aspect de vos murs en pierre. Nous remplaçons les joints endommagés ou manquants pour un aspect neuf et une meilleure sécurité.
                         <a href="/prestations#joint-pierre" class="stretched-link">Voir plus...</a>

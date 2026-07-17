@@ -1,17 +1,19 @@
+</main>
+
 <footer class="bg-dark text-secondary border-top border-secondary py-5">
     <div class="container">
         <div class="row text-sm-start text-center">
             <div class="col-sm">
-                <h4>Contacts</h4>
+                <h2 class="h4">Contacts</h2>
                 <p>
-                    <img style="max-height: 54px" src="/images/logo/nf-logo-long.png" alt="logo footer">
+                    <img style="max-height: 54px" src="/images/logo/nf-logo-long.png" width="200" height="51" alt="logo footer">
                 </p>
                 <p>Téléphone : <a href="tel:0651388181" class="link-secondary">06 51 38 81 81</a></p>
                 <p>E-mail : <a href="mailto:contact@nuances-facade.fr" class="link-secondary">contact@nuances-facade.fr</a></p>
                 <hr class="d-block d-sm-none">
             </div>
             <div class="col-sm">
-                <h4>Liens utiles</h4>
+                <h2 class="h4">Liens utiles</h2>
                 <ul class="nav flex-column">
                     <li>
                         <a href="/prestations" class="nav-link text-secondary">Nos prestations</a>
@@ -28,7 +30,7 @@
                 </ul>
             </div>
             <div class="col-sm">
-                <h4>Secteurs</h4>
+                <h2 class="h4">Secteurs</h2>
                 <ul class="nav flex-column">
                     <li>
                         <a href="/prestation/ravalement-facade-vaucluse" class="nav-link text-secondary">Ravalement facade Vaucluse - 84</a>

@@ -26,8 +26,8 @@ include_once "layouts/header.php"
         <div class="col-md col-xl-3">
             <div class="card border-warning-subtle shadow">
                 <div class="card-body">
-                    <h5 class="card-title">Traitement technique</h5>
-                    <h6 class="card-subtitle mb-3 text-muted fw-normal">Votre façade présente des pathologies et a besoin d’une intervention technique.</h6>
+                    <h2 class="card-title h5">Traitement technique</h2>
+                    <h3 class="card-subtitle mb-3 text-muted fw-normal h6">Votre façade présente des pathologies et a besoin d’une intervention technique.</h3>
                     <div class="card-text">
                         <ul class="mb-1">
                             <li>Fissures</li>
@@ -44,8 +44,8 @@ include_once "layouts/header.php"
         <div class="col-md col-xl-3">
             <div class="card border-warning-subtle shadow">
                 <div class="card-body">
-                    <h5 class="card-title">Traitement isolant</h5>
-                    <h6 class="card-subtitle mb-3 text-muted fw-normal">Votre façade n’est pas ou mal isolée. Vous avez tout intérêt à améliorer votre isolation thermique par l’extérieur.</h6>
+                    <h2 class="card-title h5">Traitement isolant</h2>
+                    <h3 class="card-subtitle mb-3 text-muted fw-normal h6">Votre façade n’est pas ou mal isolée. Vous avez tout intérêt à améliorer votre isolation thermique par l’extérieur.</h3>
                     <div class="card-text">
                         <div class="mb-1">Avec les normes actuelles en matière d’isolation et l’augmentation du coût de l’énergie, améliorer l’isolation de votre maison devient indispensable.</div>
                         <ul class="mb-1">
@@ -63,8 +63,8 @@ include_once "layouts/header.php"
         <div class="col-md col-xl-3">
             <div class="card border-warning-subtle shadow">
                 <div class="card-body">
-                    <h5 class="card-title">Traitement décoratif</h5>
-                    <h6 class="card-subtitle mb-3 text-muted fw-normal">Votre maison a besoin d’une nouvelle beauté. Grâce au ravalement décoratif, changez de maison sans changer d’adresse.</h6>
+                    <h2 class="card-title h5">Traitement décoratif</h2>
+                    <h3 class="card-subtitle mb-3 text-muted fw-normal h6">Votre maison a besoin d’une nouvelle beauté. Grâce au ravalement décoratif, changez de maison sans changer d’adresse.</h3>
                     <div class="card-text">
                         <div class="mb-1">Nous possédons l’expertise et la maitrise de nombreux produits décoratifs pour redonner à votre façade un bel aspect décoratif :</div>
                         <ul class="mb-1">

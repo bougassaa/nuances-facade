@@ -145,3 +145,17 @@ body {
         transform: rotate(90deg);
     }
 }
+
+/* Contraste AA du footer sombre : le gris "secondary" #6c757d (3.28:1) est
+   trop sombre sur fond bg-dark. On redefinit --bs-secondary-rgb pour le footer
+   afin d'eclaircir texte, liens et nav-links en #adb5bd (7.4:1) d'un seul coup. */
+footer.bg-dark {
+    --bs-secondary-rgb: 173, 181, 189;
+}
+
+footer.bg-dark .link-secondary:hover,
+footer.bg-dark .link-secondary:focus,
+footer.bg-dark .nav-link:hover,
+footer.bg-dark .nav-link:focus {
+    color: #dee2e6;
+}
