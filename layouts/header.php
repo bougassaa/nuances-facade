@@ -32,7 +32,7 @@ require_once __DIR__ . '/helpers.php';
     <link rel="shortcut icon" href="/images/logo/nf-logo-square-48.png" type="image/png">
     <link rel="apple-touch-icon" href="/images/logo/nf-logo-square-144.png" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css?v=2">
     <?php $canonicalPath = rtrim(strtok($_SERVER['REQUEST_URI'], '?'), '/'); ?>
     <link rel="canonical" href="https://www.nuances-facade.fr<?= $canonicalPath === '' ? '/' : $canonicalPath ?>" />
     <script type="application/ld+json">

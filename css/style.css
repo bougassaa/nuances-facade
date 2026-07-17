@@ -21,6 +21,7 @@ body {
 
 .navbar-brand > img {
     height: 48px;
+    width: auto;
 }
 
 #landing-home {
@@ -66,6 +67,7 @@ body {
 .localisation-preview {
     border-radius: 12px;
     max-width: 100%;
+    height: auto;
 }
 
 .navbar-offset {
@@ -104,14 +106,17 @@ body {
 .google-review {
     width: 280px;
     max-width: 100%;
+    height: auto;
 }
 
 .avatar-review {
     width: 2.4rem;
+    height: auto;
 }
 
 .stars-review {
     width: 4.9rem;
+    height: auto;
 }
 
 .img-finition {
